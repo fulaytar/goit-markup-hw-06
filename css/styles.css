@@ -67,10 +67,10 @@ color: #404bbf
 }
 /*Кінець оформлення навігації*/
 /*Секція 1. Кнопка*/
-.main-wr-section1{
+.main-wr-element-a{
     background-color:#2e2f42;
 }
-.main-wr-section1-text{
+.main-wr-section-text{
     font-family: Roboto;
     font-style: normal;
     font-size: 56px;
@@ -79,7 +79,7 @@ color: #404bbf
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.main-wr-section1-button{
+.main-wr-element-a-button{
     font-family: "Roboto", sans-serif;
     font-style: normal;
     background-color:#4D5AE5;
@@ -89,13 +89,13 @@ color: #404bbf
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-.main-wr-section1-button{
+.main-wr-element-a-button{
     cursor: pointer;/* властивість наведення курсору */
 }
-.main-wr-section1-button:hover {
+.main-wr-element-a-button:hover {
     background-color: #404BBF;
 }
-.main-wr-section1-button:focus {
+.main-wr-element-a-button:focus {
     outline: none; /* Видаляємо фокусовану рамку за замовчуванням (це важливо для доступності) */
     background-color: #404BBF;
 }
