@@ -35,23 +35,14 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.navigation-link1:hover{
+.navigation-link:hover{
     color: #404bbf;
 }
-.navigation-link2:hover {
-    color: #404bbf;
-}.navigation-link3:hover {
-    color: #404bbf;
-}
-.navigation-link1:focus{
+
+.navigation-link:focus{
     color: #404bbf;
 }
-.navigation-link2:focus {
-    color: #404bbf;
-}
-.navigation-link3:focus {
-    color: #404bbf;
-}
+
 .address-wr{font-style: normal}
 .address-wr-menu{
     font-size: 16px;
@@ -71,6 +62,7 @@ color: #404bbf
 .address-wr-menu-tel-call:focus{
     color: #404bbf
 }
+/*Кінець оформлення навігації*/
 
 button {
     cursor: pointer;/* властивість наведення курсору */
