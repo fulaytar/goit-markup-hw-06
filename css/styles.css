@@ -1,4 +1,11 @@
- button {
+/*стилізація body*/
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+/*стилізація body*/
+button {
     cursor: pointer;/* властивість наведення курсору */
 }
 button:hover {
@@ -13,7 +20,6 @@ button:focus {
     border: 2px solid #00ff00;
     /* Зелена рамка при фокусі */
 }
-
 a:hover {
     color: #ff0000;
 }
@@ -27,7 +33,7 @@ a:focus {
 .address {
     font-style: normal
 }
-.navigation-logo{
+.navigation-list-logo{
     font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -52,12 +58,7 @@ a:focus {
     letter-spacing: 0.32px;
 }
 
-body {
-    font-family:"Roboto",sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
 
-}
 
 .section1 {
     background-color: #2E2F42;
