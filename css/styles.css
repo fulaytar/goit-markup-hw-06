@@ -65,89 +65,37 @@ color: #404bbf
 .address-link:focus{
     color: #404bbf
 }
-
 /*Кінець оформлення навігації*/
 
+/*Секція 1. Кнопка*/
+.main-wr-section1{
+    background-color:#2e2f42;
+}
+.main-wr-section1-h1{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.main-wr-section1-button{
+    font-family: "Roboto", sans-serif;
+    background-color:#4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
 button {
     cursor: pointer;/* властивість наведення курсору */
 }
 button:hover {
-    color: #ff0000;
+    color: #404BBF;
 }
-
 button:focus {
     outline: none; /* Видаляємо фокусовану рамку за замовчуванням (це важливо для доступності) */
-    color: #00ff00;/* Зелений колір тексту при фокусі */
-    border: 2px solid #00ff00; /* Зелена рамка при фокусі */
-}
-a:hover {
-    color: #ff0000;
-}
-
-a:focus {
-    outline: none;
-    /* Видаляємо фокусовану рамку за замовчуванням (це важливо для доступності) */
-    color: #00ff00;
-    /* Зелений колір тексту при фокусі */
-}
-
-
-
-
-.section1 {
-    background-color: #2E2F42;
-    color: #FFFFFF;
-}
-
-
-.black-studio-logo {
-    font-family: Raleway;
-    color: #2E2F42;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
-
-
-
-.navigation-list-item {
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
-
-.section1-h1 {
-    font-family: Roboto;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.12px;
-}
-.color-logo2{
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
-.styled-button{
-    font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.64px;
+    background-color: #404BBF;
 }
 .block1,.block2,.block3,.block4{
     font-family: Roboto;
