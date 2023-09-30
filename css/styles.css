@@ -87,13 +87,13 @@ color: #404bbf
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-button {
+.main-wr-section1-button{
     cursor: pointer;/* властивість наведення курсору */
 }
-button:hover {
+.main-wr-section1-button:hover {
     color: #404BBF;
 }
-button:focus {
+.main-wr-section1-button:focus {
     outline: none; /* Видаляємо фокусовану рамку за замовчуванням (це важливо для доступності) */
     background-color: #404BBF;
 }
