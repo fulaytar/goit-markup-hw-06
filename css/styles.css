@@ -4,7 +4,74 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-/*стилізація body*/
+/* Кінець стилізація body*/
+
+/*стилізація header*/
+.header-wr{
+    font-family: "Raleway", sans-serif;
+}
+/* Кінець стилізація header*/
+
+/*стилізація логотипа*/
+.header-wr-navigation-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.header-wr-navigation-logo-color{
+    color:#2e2f42 ;
+}
+/* Кінець стилізація логотипа*/
+
+/*Оформлення навігації*/
+.header-wr-navigation-list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.navigation-link1:hover{
+    color: #404bbf;
+}
+.navigation-link2:hover {
+    color: #404bbf;
+}.navigation-link3:hover {
+    color: #404bbf;
+}
+.navigation-link1:focus{
+    color: #404bbf;
+}
+.navigation-link2:focus {
+    color: #404bbf;
+}
+.navigation-link3:focus {
+    color: #404bbf;
+}
+.address-wr{font-style: normal}
+.address-wr-menu{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-wr-menu-mail-send:hover{
+color: #404bbf
+}
+.address-wr-menu-mail-send:focus{
+    color: #404bbf
+}
+.address-wr-menu-tel-call:hover{
+    color: #404bbf
+}
+.address-wr-menu-tel-call:focus{
+    color: #404bbf
+}
+
 button {
     cursor: pointer;/* властивість наведення курсору */
 }
@@ -13,12 +80,9 @@ button:hover {
 }
 
 button:focus {
-    outline: none;
-    /* Видаляємо фокусовану рамку за замовчуванням (це важливо для доступності) */
-    color: #00ff00;
-    /* Зелений колір тексту при фокусі */
-    border: 2px solid #00ff00;
-    /* Зелена рамка при фокусі */
+    outline: none; /* Видаляємо фокусовану рамку за замовчуванням (це важливо для доступності) */
+    color: #00ff00;/* Зелений колір тексту при фокусі */
+    border: 2px solid #00ff00; /* Зелена рамка при фокусі */
 }
 a:hover {
     color: #ff0000;
@@ -30,33 +94,7 @@ a:focus {
     color: #00ff00;
     /* Зелений колір тексту при фокусі */
 }
-.address {
-    font-style: normal
-}
-.navigation-list-logo{
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-.address-menu-item {
-    hover {
-        color: #ff0000;
-    }
 
-    focus {
-        color: #00ff00;
-    }
-
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
 
 
 
