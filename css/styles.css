@@ -50,6 +50,9 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.address-wr-menu-item{
+    color:#434455;
+}
 .address-wr-menu-mail-send:hover{
 color: #404bbf
 }
