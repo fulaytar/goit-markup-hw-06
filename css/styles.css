@@ -64,10 +64,6 @@ a:focus {
     background-color: #2E2F42;
     color: #FFFFFF;
 }
-footer {
-    background-color: #2E2F42;
-    color: #FFFFFF;
-}
 
 
 .black-studio-logo {
@@ -81,16 +77,7 @@ footer {
     text-transform: uppercase;
 }
 
-.white-studio-logo {
-    font-family: Raleway;
-    color: #F4F4FD;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
+
 
 .navigation-list-item {
     font-family: Roboto;
@@ -192,10 +179,30 @@ letter-spacing: 0.32px;}
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-.footer-text{
+.footer-wr{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+.footer-wr-text{
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0.32px;}
+color:#F4F4FD;
+}
+.footer-wr-logo {
+    font-family: Raleway;
+    color: #F4F4FD;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
