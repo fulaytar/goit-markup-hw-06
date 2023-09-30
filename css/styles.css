@@ -126,8 +126,8 @@ color: #434455;}
 .main-section-c{
     background-color: #F4F4FD;
 }
-.main-section-c-list{
-background-color: #FFFFFF;
+.main-section-c-list-item{
+    background-color: #FFFFFF
 }
 .main-section-c-text{
     font-family: Roboto;
