@@ -102,7 +102,7 @@ color: #404bbf
 /* Кінець - Секція 1. Кнопка*/
 
 /*  Секція 2.*/
-.main-wr-section-b-text{
+.main-section-b-text{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -112,7 +112,7 @@ color: #404bbf
     color: #2e2f42;
     letter-spacing: 0.4px;
 }
-.main-wr-section-b-p{
+.main-section-b-p{
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
