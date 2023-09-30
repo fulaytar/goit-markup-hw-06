@@ -179,14 +179,16 @@ letter-spacing: 0.32px;}
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+/*стилізація footer*/
 .footer-wr{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+background-color:#2e2f42;
 }
 .footer-wr-text{
 font-family: Roboto;
@@ -195,14 +197,16 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 color:#F4F4FD;
+letter-spacing: 0.02em
 }
 .footer-wr-logo {
-    font-family: Raleway;
-    color: #F4F4FD;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+font-family: Raleway;
+color: #4d5ae5;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
+/*стилізація footer*/
