@@ -100,6 +100,7 @@ color: #404bbf
     outline: none; /* Видаляємо фокусовану рамку за замовчуванням (це важливо для доступності) */
     background-color: #404BBF;
 }
+/* Кінець - Секція 1. Кнопка*/
 .block1,.block2,.block3,.block4{
     font-family: Roboto;
     font-size: 20px;
