@@ -56,18 +56,16 @@ body {
 .address-wr-menu-item{
     color:#434455;
 }
-.address-wr-menu-mail-send:hover{
+.address-link{
+    color: #434455;
+}
+.address-link:hover{
 color: #404bbf
 }
-.address-wr-menu-mail-send:focus{
+.address-link:focus{
     color: #404bbf
 }
-.address-wr-menu-tel-call:hover{
-    color: #404bbf
-}
-.address-wr-menu-tel-call:focus{
-    color: #404bbf
-}
+
 /*Кінець оформлення навігації*/
 
 button {
