@@ -157,6 +157,8 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.32px;}
 /*  Кінець Секція 3 "our-team".*/
+
+/*  Секція 4 .*/
 .our-portfolio{
     font-family: Roboto;
     font-size: 36px;
@@ -166,7 +168,7 @@ letter-spacing: 0.32px;}
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.our-portfolio-item1,.our-portfolio-item2,.our-portfolio-item3,.our-portfolio-item4,.our-portfolio-item5,.our-portfolio-item6{
+.our-portfolio-item{
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -174,7 +176,7 @@ letter-spacing: 0.32px;}
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-.our-portfolio-item1-text,.our-portfolio-item2-text,.our-portfolio-item3-text,.our-portfolio-item4-text,.our-portfolio-item5-text,.our-portfolio-item6-text{
+.our-portfolio-item-text{
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -182,6 +184,8 @@ letter-spacing: 0.32px;}
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+/*  Кінець Секція 4 .*/
+
 /*стилізація footer*/
 .footer-wr{
 background-color: #2e2f42;
