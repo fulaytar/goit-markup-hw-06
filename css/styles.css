@@ -91,7 +91,7 @@ color: #404bbf
     cursor: pointer;/* властивість наведення курсору */
 }
 .main-wr-section1-button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .main-wr-section1-button:focus {
     outline: none; /* Видаляємо фокусовану рамку за замовчуванням (це важливо для доступності) */
