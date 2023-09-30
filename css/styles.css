@@ -1,7 +1,6 @@
  button {
     cursor: pointer;/* властивість наведення курсору */
 }
-
 button:hover {
     color: #ff0000;
 }
@@ -25,7 +24,18 @@ a:focus {
     color: #00ff00;
     /* Зелений колір тексту при фокусі */
 }
-
+.address {
+    font-style: normal
+}
+.navigation-logo{
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 .address-menu-item {
     hover {
         color: #ff0000;
@@ -43,7 +53,7 @@ a:focus {
 }
 
 body {
-    font-family: 'Roboto', 'Raleway',sans-serif;;
+    font-family:"Roboto",sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 
@@ -58,16 +68,6 @@ footer {
     color: #FFFFFF;
 }
 
-.color-logo1 {
-    font-family: Raleway;
-    color: #4D5AE5;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
 
 .black-studio-logo {
     font-family: Raleway;
