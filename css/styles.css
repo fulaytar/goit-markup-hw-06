@@ -100,7 +100,9 @@ color: #404bbf
     background-color: #404BBF;
 }
 /* Кінець - Секція 1. Кнопка*/
-.main-wr-section2-text{
+
+/*  Секція 2.*/
+.main-wr-section-b-text{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -110,7 +112,7 @@ color: #404bbf
     color: #2e2f42;
     letter-spacing: 0.4px;
 }
-.main-wr-section2-p{
+.main-wr-section-b-p{
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -118,6 +120,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.32px;
 color: #434455;}
+/*  Кінець секція 2.*/
 .our-team{
     font-family: Roboto;
     font-size: 36px;
