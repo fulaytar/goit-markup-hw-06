@@ -100,7 +100,14 @@ color: #404bbf
     background-color: #404BBF;
 }
 /* Кінець - Секція 1. Кнопка*/
-.block1,.block2,.block3,.block4{
+.main-wr-section2-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.main-wr-section2-text1,.main-wr-section2-text2,.main-wr-section2-text3,.main-wr-section2-text4{
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -108,7 +115,7 @@ color: #404bbf
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-.block1-text,.block2-text,.block3-text,.block4-text{
+.main-wr-section2-p1,.main-wr-section2-p2,.main-wr-section2-p3,.main-wr-section2-p4{
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
