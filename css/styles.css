@@ -4,13 +4,14 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-/* Кінець стилізація body*/
-
-/*стилізація header*/
-.header-wr{
-    font-family: "Raleway", sans-serif;
+a{
+    text-decoration: none;
+    
 }
-/* Кінець стилізація header*/
+ul{
+    list-style: none;
+}
+/* Кінець стилізація body*/
 
 /*стилізація логотипа*/
 .header-wr-navigation-logo{
@@ -33,7 +34,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 .navigation-link{
     color: #2e2f42;
@@ -46,15 +46,14 @@ body {
     color: #404bbf;
 }
 
-.address-wr{font-style: normal}
+.address-wr{
+    font-style: normal
+}
 .address-wr-menu{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-.address-wr-menu-item{
-    color:#434455;
 }
 .address-link{
     color: #434455;
@@ -71,8 +70,6 @@ color: #404bbf
     background-color:#2e2f42;
 }
 .main-wr-section-text{
-    font-family: Roboto;
-    font-style: normal;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -80,8 +77,6 @@ color: #404bbf
     color: #ffffff;
 }
 .main-wr-element-a-button{
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     background-color:#4D5AE5;
     font-weight: 500;
     font-size: 16px;
@@ -103,8 +98,6 @@ color: #404bbf
 
 /*  Секція 2.*/
 .main-section-b-text{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -113,9 +106,7 @@ color: #404bbf
     letter-spacing: 0.4px;
 }
 .main-section-b-p{
-font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.32px;
@@ -132,9 +123,7 @@ color: #434455;}
     color: #2e2f42;
 }
 .main-section-c-text{
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
@@ -143,18 +132,14 @@ color: #434455;}
     color:#2e2f42;
 }
 .main-section-c-name{
-    font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
     color: #2e2f42;
 }
 .main-section-c-name-details{
-font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height:1.5;
 letter-spacing: 0.02em;
@@ -164,9 +149,7 @@ color: #434455;
 
 /*  Секція 4 .*/
 .our-portfolio{
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
@@ -174,18 +157,14 @@ color: #434455;
     color: #2e2f42;
 }
 .our-portfolio-list-item-name{
-    font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
     color: #2e2f42;
 }
 .our-portfolio-list-item-name-text{
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -197,7 +176,6 @@ color: #434455;
 .footer-wr{
 background-color: #2e2f42;
 color: #4d5ae5;
-font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
@@ -205,21 +183,20 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .footer-wr-text{
-font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 24px;
 color:#f4f4fd;
 letter-spacing: 0.02em;
 }
 .footer-wr-color{
-    color: #4d5ae5;}
+    color: #4d5ae5;
+font-family: Raleway;
+}
 .footer-wr-logo {
 font-family: Raleway;
 color: #f4f4fd;
 font-size: 18px;
-font-style: normal;
 font-weight: 700;
 line-height: 21px;
 letter-spacing: 0.54px;
