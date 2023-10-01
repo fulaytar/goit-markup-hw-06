@@ -107,7 +107,7 @@ color: #404bbf
 .main-section-b-p{
 font-size: 16px;
 font-weight: 400;
-line-height: 1.2;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;}
 /*  Кінець секція 2.*/
@@ -125,7 +125,7 @@ color: #434455;}
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.045em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color:#2e2f42;
@@ -134,7 +134,7 @@ color: #434455;}
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .main-section-c-name-details{
@@ -151,7 +151,7 @@ color: #434455;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.045em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
 }
@@ -159,7 +159,7 @@ color: #434455;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .our-portfolio-list-item-name-text{
@@ -184,12 +184,13 @@ text-transform: uppercase;
 .footer-wr-text{
 font-size: 16px;
 font-weight: 400;
-line-height: 1.2;
+line-height: 1.5;
 color:#f4f4fd;
 letter-spacing: 0.02em;
 }
 .footer-wr-color{
     color: #4d5ae5;
+    font-family: Raleway;
 }
 .footer-wr-logo {
 font-family: Raleway;
