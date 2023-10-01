@@ -173,6 +173,7 @@ color: #434455;
 
 /*стилізація footer*/
 .footer-wr{
+font-family: Raleway,sans-serif;
 background-color: #2e2f42;
 color: #4d5ae5;
 font-weight: 700;
@@ -182,6 +183,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .footer-wr-text{
+font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
@@ -190,10 +192,8 @@ letter-spacing: 0.02em;
 }
 .footer-wr-color{
     color: #4d5ae5;
-    font-family: Raleway;
 }
 .footer-wr-logo {
-font-family: Raleway;
 color: #f4f4fd;
 font-size: 18px;
 font-weight: 700;
