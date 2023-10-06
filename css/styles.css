@@ -199,4 +199,61 @@ line-height: 1.16;
 letter-spacing: 0.034em;
 text-transform: uppercase;
 }
-/*стилізація footer*/
+/* Кінець стилізація footer*/
+
+/* Обнулення дефолтних маржинів для заголовків та параграфів */
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+/* Обнулення дефолтних маржинів і лівого падіння для списків */
+ul,ol {
+    margin: 0;
+    padding-left: 0;
+}
+/* Зроблення зображень блочними елементами */
+img {
+    display: block;
+}
+/* Оформлення контейнерів */
+.container{
+    width:1158px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Оформлення хедера */
+.header-wr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-wr-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-wr-navigation-logo {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.header-wr-navigation-list {
+    display: flex;
+}
+
+.header-wr-navigation-list-item1,
+.header-wr-navigation-list-item2,
+.header-wr-navigation-list-item3 {
+    margin-right: 15px;
+}
+
+.address-wr-menu {
+    display: flex;
+}
+.address-wr-menu-item {
+    margin-right: 15px;
+}
