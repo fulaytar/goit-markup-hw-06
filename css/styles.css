@@ -58,10 +58,10 @@ ul{
 .address-link1,.address-link2{
     color: #434455;
 }
-.address-link1:hover,address-link2:hover{
+.address-link1:hover,.address-link2:hover{
 color: #404bbf
 }
-.address-link1:focus,address-link2:focus{
+.address-link1:focus,.address-link2:focus{
     color: #404bbf
 }
 /*Кінець оформлення навігації*/
@@ -218,6 +218,9 @@ img {
 /* Оформлення контейнерів */
 body{
     max-width: 100%;
+}
+.header-wr{
+    border-bottom: 1px solid #e7e9fc;
 }
 .container{
     max-width:1158px;
