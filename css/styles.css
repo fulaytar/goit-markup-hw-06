@@ -35,33 +35,33 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.navigation-link{
+.navigation-link1,.navigation-link2,.navigation-link3{
     color: #2e2f42;
 }
-.navigation-link:hover{
+.navigation-link1:hover,.navigation-link2:hover,.navigation-link3:hover{
     color: #404bbf;
 }
 
-.navigation-link:focus{
+.navigation-link1:focus,.navigation-link2:focus,.navigation-link3:focus{
     color: #404bbf;
 }
 
 .address-wr{
     font-style: normal
 }
-.address-wr-menu{
+.address-wr-menu1,address-wr-menu-item2{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-link{
+.address-link1,.address-link2{
     color: #434455;
 }
-.address-link:hover{
+.address-link1:hover,address-link2:hover{
 color: #404bbf
 }
-.address-link:focus{
+.address-link1:focus,address-link2:focus{
     color: #404bbf
 }
 /*Кінець оформлення навігації*/
@@ -216,44 +216,59 @@ img {
     display: block;
 }
 /* Оформлення контейнерів */
+body{
+    max-width: 100%;
+}
 .container{
-    width:1158px;
-    padding-left:15px;
-    padding-right:15px;
+    max-width:1158px;
     margin-left:auto;
     margin-right:auto;
 }
 /* Оформлення хедера */
-.header-wr {
+.header-wr{
+    height: 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
 }
-
 .header-wr-navigation {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-
+.navigation-link1,.navigation-link2{
+    margin: 0;
+    padding-right: 40px;
+}
+.navigation-link3{
+    margin: 0;
+    padding-right: 332px;
+}
 .header-wr-navigation-logo {
-    font-size: 24px;
-    margin-right: 20px;
+    margin: 0;
+}
+.header-wr-navigation-logo-color{
+    margin: 0;
+    padding-right: 76px;
 }
 
 .header-wr-navigation-list {
     display: flex;
-}
-
-.header-wr-navigation-list-item1,
-.header-wr-navigation-list-item2,
-.header-wr-navigation-list-item3 {
-    margin-right: 15px;
+    margin: 0;
+    padding: 0px;
 }
 
 .address-wr-menu {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
-.address-wr-menu-item {
-    margin-right: 15px;
+.address-link1{
+    margin: 0;
+    padding-right: 40px;
+}
+.address-link2{
+    margin: 0;
 }
