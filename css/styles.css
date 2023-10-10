@@ -219,9 +219,40 @@ img {
 body{
     margin: 0 auto;
     width: 1440px;
-    
 }
 .container{
     margin: 0 auto;
     width: 1158px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px
+}
+/* Оформлення хедера */
+.header{
+    border-bottom: 1px solid #e7e9fc}
+ .header-wr{
+    display: flex;
+    height: 72px;
+ }
+.header-wr-navigation{
+    display: flex;
+    align-items: center;
+}
+.header-wr-navigation-logo{
+    margin-right: 76px
+}
+.header-wr-navigation-list{
+    display: flex;
+    gap: 40px;
+    margin-right: 332px;
+}
+.header-wr-navigation-list-item1>a{
+    padding: 24px 0;}
+.address-wr{
+        display: flex;
+        align-items: center;
+}
+.address-wr-menu{
+    display: flex;
+    gap: 40px;
 }
