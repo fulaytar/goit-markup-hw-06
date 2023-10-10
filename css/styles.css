@@ -245,7 +245,7 @@ body{
     gap: 40px;
     margin-right: 332px;
 }
-.header-wr-navigation-list-item1>a{
+.header-wr-navigation-list>li>a{
     padding: 24px 0;}
 .address-wr{
         display: flex;
