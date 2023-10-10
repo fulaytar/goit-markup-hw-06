@@ -228,11 +228,10 @@ body{
     padding: 0 15px
 }
 /* Оформлення хедера */
-.header{
-    border-bottom: 1px solid #e7e9fc}
  .header-wr{
     display: flex;
     height: 72px;
+    border-bottom: 1px solid #e7e9fc
  }
 .header-wr-navigation{
     display: flex;
