@@ -280,7 +280,7 @@ display: block;
 .main-section-b{
     padding: 120px 0;
 }
-.main-section-b-benefit{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
