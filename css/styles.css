@@ -257,8 +257,10 @@ body{
     gap: 40px;
 }
 /* Оформлення секції hero */
+.main-wr-element-a{
+    padding: 188px 0;
+}
 .main-wr-element-a>.container{
-padding: 188px 0;
 width: 496px;
 display: block;
 }
