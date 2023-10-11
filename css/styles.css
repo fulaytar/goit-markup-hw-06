@@ -258,7 +258,7 @@ body{
 }
 /* Оформлення секції hero */
 .main-wr-element-a{
-    padding: 188px 0;
+padding: 188px 0;
 }
 .main-wr-element-a>.container{
 width: 496px;
@@ -267,6 +267,7 @@ display: block;
 .main-wr-section-text{
     max-width: 496px;
     padding-bottom: 48px;
+    width: 496px;
 }
 .main-wr-element-a-button{
     display: block;
