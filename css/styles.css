@@ -49,7 +49,7 @@ ul{
 .address-wr{
     font-style: normal
 }
-.address-wr-menu1,address-wr-menu-item2{
+.address-wr-menu1,.address-wr-menu-item2{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
