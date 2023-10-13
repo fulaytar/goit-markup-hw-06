@@ -296,7 +296,7 @@ display: block;
     display: flex;
     gap: 24px;
 }
-.main-section-b-menu>li{
+.main-section-b-list{
 width: calc((100% - 72px) / 4);
 }
 .main-section-b-text{
