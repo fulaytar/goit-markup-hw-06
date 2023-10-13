@@ -246,15 +246,15 @@ body{
     gap: 40px;
     margin-right: 332px;
 }
-
         /* Оформлення контактів */
 .address-wr{
         display: flex;
-        align-items: center;
+
 }
 .address-wr-menu{
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 /* Оформлення секції hero */
 .main-wr-element-a{
