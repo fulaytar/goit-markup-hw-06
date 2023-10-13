@@ -281,7 +281,7 @@ display: block;
 .main-section-b{
     padding: 120px 0;
 }
-.visually-hidden{
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -292,11 +292,11 @@ display: block;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
 }
-.main-section-b>.container>ul{
+.main-section-b-menu{
     display: flex;
     gap: 24px;
 }
-.main-section-b>.container>ul>li{
+.main-section-b-menu>li{
 width: calc((100% - 72px) / 4);
 }
 .main-section-b-text{
