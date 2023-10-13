@@ -245,7 +245,7 @@ body{
     gap: 40px;
     margin-right: 332px;
 }
-.header-wr-navigation-list>li>a{
+.navigation-link1,.navigation-link2,.navigation-link3{
     padding: 24px 0;}
         /* Оформлення контактів */
 .address-wr{
