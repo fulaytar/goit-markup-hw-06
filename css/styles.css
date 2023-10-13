@@ -55,13 +55,13 @@ ul{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-link1,.address-link2{
+.address-menu-link1,.address-menu-link2{
     color: #434455;
 }
-.address-link1:hover,.address-link2:hover{
+.address-menu-link1:hover,.address-menu-link2:hover{
 color: #404bbf
 }
-.address-link1:focus,.address-link2:focus{
+.address-menu-link1:focus,.address-menu-link2:focus{
     color: #404bbf
 }
 /*Кінець оформлення навігації*/
