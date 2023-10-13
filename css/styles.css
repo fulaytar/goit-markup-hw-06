@@ -35,14 +35,14 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.navigation-link1,.navigation-link2,.navigation-link3{
+.navigation-list-link1,.navigation-list-link2,.navigation-list-link3{
     color: #2e2f42;
 }
-.navigation-link1:hover,.navigation-link2:hover,.navigation-link3:hover{
+.navigation-list-link1:hover,.navigation-list-link2:hover,.navigation-list-link3:hover{
     color: #404bbf;
 }
 
-.navigation-link1:focus,.navigation-link2:focus,.navigation-link3:focus{
+.navigation-list-link1:focus,.navigation-list-link2:focus,.navigation-list-link3:focus{
     color: #404bbf;
 }
 
@@ -245,7 +245,7 @@ body{
     gap: 40px;
     margin-right: 332px;
 }
-.navigation-link1,.navigation-link2,.navigation-link3{
+.navigation-list-link1,.navigation-list-link2,.navigation-list-link3{
     padding: 24px 0;
 }
         /* Оформлення контактів */
