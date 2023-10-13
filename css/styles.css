@@ -236,7 +236,6 @@ body{
 .header-wr-navigation{
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 .header-wr-navigation-logo{
     margin-right: 76px
@@ -245,6 +244,7 @@ body{
     display: flex;
     gap: 40px;
     margin-right: 332px;
+    padding: 24px 0;
 }
 
         /* Оформлення контактів */
