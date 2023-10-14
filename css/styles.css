@@ -35,9 +35,6 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.navigation-list-link1,.navigation-list-link2,.navigation-list-link3{
-    color: #2e2f42;
-}
 .navigation-list-link1:hover,.navigation-list-link2:hover,.navigation-list-link3:hover{
     color: #404bbf;
 }
@@ -247,9 +244,11 @@ body{
 }
 .header-wr-navigation-list>li{
     padding: 24px 0;
+    color: #2e2f42;
 }
 .navigation-list-link1,.navigation-list-link2,.navigation-list-link3{
     padding: inherit;
+    color: inherit;
 }
 
 
