@@ -53,7 +53,7 @@ ul{
     color: #434455;
 }
 .address-menu-link1,.address-menu-link2{
-    color: #434455;
+color: #434455;
 }
 .address-menu-link1:hover,.address-menu-link2:hover{
 color: #404bbf
@@ -238,17 +238,17 @@ body{
     margin-right: 76px
 }
 .header-wr-navigation-list{
-    display: flex;
-    gap: 40px;
-    margin-right: 332px;
+display: flex;
+gap: 40px;
+margin-right: 332px;
 }
-.header-wr-navigation-list>li{
-    padding: 24px 0;
-    color: #2e2f42;
+.header-wr-navigation-list-item1,.header-wr-navigation-list-item2,.header-wr-navigation-list-item3{
+padding: 24px 0;
+color: #2e2f42;
 }
 .navigation-list-link1,.navigation-list-link2,.navigation-list-link3{
-    padding: inherit;
-    color: inherit;
+padding: inherit;
+color: inherit;
 }
 
 
