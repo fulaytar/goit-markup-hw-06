@@ -241,12 +241,10 @@ color: #2e2f42;
 .navigation-list-item:hover,.navigation-list-item:focus{
 color: #404bbf;}
 
-.navigation-list-link1,.navigation-list-link2,.navigation-list-link3{
+.navigation-list-link{
 padding: inherit;
 color: inherit;
 }
-
-
         /* Оформлення контактів */
 .address-wr{
         display: flex;
