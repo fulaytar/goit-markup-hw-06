@@ -230,9 +230,10 @@ img {
 .header-wr-navigation-list{
 display: flex;
 gap: 40px;
+padding: 24px 0;
 }
 .nav-list-item{
-padding: 24px 0;
+
 color: #2e2f42;
 }
 .nav-list-item:hover,.nav-list-item:focus{
