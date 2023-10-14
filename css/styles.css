@@ -234,11 +234,11 @@ display: flex;
 gap: 40px;
 margin-right: 332px;
 }
-.navigation-list-item{
+.nav-list-item{
 padding: 24px 0;
 color: #2e2f42;
 }
-.navigation-list-item:hover,.navigation-list-item:focus{
+.nav-list-item:hover,.nav-list-item:focus{
 color: #404bbf;}
 
 .navigation-list-link{
