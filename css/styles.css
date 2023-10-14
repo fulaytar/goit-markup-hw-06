@@ -234,11 +234,11 @@ display: flex;
 gap: 40px;
 margin-right: 332px;
 }
-.header-wr-navigation-list-item{
+.header-navigation-list-item{
 padding: 24px 0;
 color: #2e2f42;
 }
-.header-wr-navigation-list-item:hover,.header-wr-navigation-list-item:focus{
+.header-navigation-list-item:hover,.header-navigation-list-item:focus{
 color: #404bbf;}
 
 .navigation-list-link1,.navigation-list-link2,.navigation-list-link3{
