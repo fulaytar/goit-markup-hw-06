@@ -35,14 +35,6 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.navigation-list-link1:hover,.navigation-list-link2:hover,.navigation-list-link3:hover{
-    color: #404bbf;
-}
-
-.navigation-list-link1:focus,.navigation-list-link2:focus,.navigation-list-link3:focus{
-    color: #404bbf;
-}
-
 .address-wr{
     font-style: normal
 }
@@ -242,10 +234,12 @@ display: flex;
 gap: 40px;
 margin-right: 332px;
 }
-.header-wr-navigation-list-item1,.header-wr-navigation-list-item2,.header-wr-navigation-list-item3{
+.header-wr-navigation-list>li{
 padding: 24px 0;
 color: #2e2f42;
 }
+.header-wr-navigation-list>li:hover,.header-wr-navigation-list>li:focus{color: #404bbf;}
+
 .navigation-list-link1,.navigation-list-link2,.navigation-list-link3{
 padding: inherit;
 color: inherit;
