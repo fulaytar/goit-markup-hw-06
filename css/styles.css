@@ -244,11 +244,14 @@ body{
     display: flex;
     gap: 40px;
     margin-right: 332px;
+}
+.header-wr-navigation-list>li{
     padding: 24px 0;
 }
-.header-wr-navigation-list-item1,.header-wr-navigation-list-item2,.header-wr-navigation-list-item3{
-padding: inherit;
+.navigation-list-link1,.navigation-list-link2,.navigation-list-link3{
+    padding: inherit;
 }
+
 
         /* Оформлення контактів */
 .address-wr{
