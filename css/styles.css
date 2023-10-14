@@ -206,24 +206,24 @@ img {
 }
 /* Оформлення контейнерів */
 .container{
-    margin: 0 auto;
-    width: 1158px;
-    display: flex;
-    margin: 0 auto;
-    padding: 0 15px
+margin: 0 auto;
+width: 1158px;
+display: flex;
+margin: 0 auto;
+padding: 0 15px
 }
 /* Оформлення хедера */
 .header-wr{
-    display: flex;
-    height: 72px;
-    border-bottom: 1px solid #e7e9fc;
+display: flex;
+height: 72px;
+border-bottom: 1px solid #e7e9fc;
 }
 .header-wr-navigation{
-    display: flex;
-    align-items: center;
-    padding-right: 332px;
+display: flex;
+align-items: center;
+padding-right: 332px;
 }
-.header-wr-navigation-logo-color{
+.header-wr-navigation-logo{
 margin-right: 72px;
 }
 .header-wr-navigation-list{
