@@ -221,7 +221,7 @@ border-bottom: 1px solid #e7e9fc;
 .header-wr-navigation{
 display: flex;
 align-items: center;
-padding-right: 332px;
+margin-right: auto;
 }
 .header-wr-navigation-logo{
 margin-right: 76px;
