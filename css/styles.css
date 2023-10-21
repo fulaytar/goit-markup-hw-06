@@ -370,5 +370,5 @@ border-top: none;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/office.png);
     background-size: cover,cover;
     background-repeat: no-repeat;
-    width: 1440px;
+    max-width: 1440px;
 }
