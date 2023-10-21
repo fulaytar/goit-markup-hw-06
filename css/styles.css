@@ -372,3 +372,14 @@ border-top: none;
     background-repeat: no-repeat;
     max-width: 1440px;
 }
+.icon-benefits{
+    height: 64px;
+    width: 64px;
+}
+.card-icon{
+    display: block;
+    padding: 24px 100px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+    border: 1px solid  #8E8F99;
+}
