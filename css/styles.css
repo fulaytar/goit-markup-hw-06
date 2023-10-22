@@ -363,7 +363,7 @@ border-top: none;
 .footer-wr-text{
     width: 264px;
 }
-/* Додавання декоративних елементів*/
+/* =========Додавання декоративних елементів=======*/
 .main-wr-element-a {
     display: block;
     background-color: #2e2f42;
@@ -383,3 +383,16 @@ border-top: none;
     margin-bottom: 8px;
     border: 1px solid  #8E8F99;
 }
+/* ========Оформлення навігації=======*/
+.header-wr-navigation a:active,.header-wr-navigation a:focus {
+    position: relative;
+    color: #404BBF;}
+.header-wr-navigation a:active::after,.header-wr-navigation a:focus::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 4px solid #404BBF;
+    border-radius: 2px;}
