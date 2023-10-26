@@ -430,5 +430,31 @@ background-position: center;
 }
 .icons-svg{
     fill: #F4F4FD;
+}
+/* ========Оформлення overflow=======*/
+.our-portfolio-list-item{
+    position: relative;
+    overflow: hidden;
     
+}
+.overflow-info{
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 360px;
+    height: 300px;
+    transform: translateY(-100%);
+    padding:40px 32px 164px 32px ;
+    background: #4D5AE5;
+}
+.our-portfolio-list-item:hover .overflow-info{
+    transform: translateY(0);
+    transition: transform 250ms ease-in-out;
+}
+.overflow-info-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
