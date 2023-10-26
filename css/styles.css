@@ -366,11 +366,13 @@ border-top: none;
 /* =========Додавання декоративних елементів=======*/
 .main-wr-element-a {
     display: block;
+margin: 0 auto;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/office.png);
+background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 1440px;
+    width: 1440px;
 }
 .icon-benefits{
     height: 64px;
@@ -384,15 +386,28 @@ border-top: none;
     border: 1px solid  #8E8F99;
 }
 /* ========Оформлення навігації=======*/
-.header-wr-navigation a:active,.header-wr-navigation a:focus {
+.header-wr-navigation-list a:active,.header-wr-navigation-list a:focus {
     position: relative;
     color: #404BBF;}
-.header-wr-navigation a:active::after,.header-wr-navigation a:focus::after {
+.nav-list-item a:focus::after,.nav-list-item a:active::after{
     content: "";
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
     width: 100%;
-    border-bottom: 4px solid #404BBF;
-    border-radius: 2px;}
+    height: 4px;
+    border-radius: 2px;
+    background: #404BBF;
+}
+/* ========Оформлення icons=======*/
+.people-icons-list{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    row-gap: 24px;
+}
+.icons-list-item{
+    width: 40px;
+    height: 40px;
+}
