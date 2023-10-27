@@ -385,27 +385,37 @@ background-position: center;
     margin-bottom: 8px;
     border: 1px solid  #8E8F99;
 }
+/* =========Додавання хедера=======*/
+.header-wr {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 /* ========Оформлення навігації=======*/
-.header-wr-navigation-list a:active,.header-wr-navigation-list a:focus {
+.page-link-header{
     position: relative;
-    color: #404BBF;}
-.nav-list-item a:focus::after,.nav-list-item a:active::after{
-    content: "";
+    color: #404bbf;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-link-header{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-header::after{
+    content: '';
     position: absolute;
-    bottom: 0;
-    right: 0;
     left: 0;
-    width: 100%;
+    bottom: -1px;
     height: 4px;
+    background-color: #404bbf;
     border-radius: 2px;
-    background: #404BBF;
+
 }
 /* ========Оформлення icons=======*/
 .icons-list-item{
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 .icons-link{
     width: 40px;
