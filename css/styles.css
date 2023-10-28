@@ -457,6 +457,7 @@ ul .nav-list-item{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons-link:hover,.icons-link:focus{
     background-color: #404bbf;
@@ -472,7 +473,6 @@ ul .nav-list-item{
 .icons-list-item{
     border-radius: 40px;
     background-color: #4D5AE5;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons-link-svg{
     fill: #F4F4FD;
