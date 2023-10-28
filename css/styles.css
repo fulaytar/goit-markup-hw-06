@@ -472,11 +472,9 @@ ul .nav-list-item{
 .icons-list-item{
     border-radius: 40px;
     background-color: #4D5AE5;
-}
-.people-icons-list li{
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icons-svg{
+.icons-link-svg{
     fill: #F4F4FD;
 }
 /* ========Оформлення overflow=======*/
