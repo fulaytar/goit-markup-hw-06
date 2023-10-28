@@ -353,9 +353,7 @@ border-top: none;
 .footer-wr{
     padding: 100px 0
 }
-.footer-wr>.container{
-    display: block;
-}
+
 .footer-wr-color{
     display: inline-block;
     margin-bottom: 16px;
@@ -393,6 +391,13 @@ background-position: center;
     background-color: #F4F4FD;
     margin-bottom: 8px;
     border: 1px solid  #8E8F99;
+}
+.main-section-b .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
 }
 /* =========Додавання хедера=======*/
 .header-wr {
@@ -508,11 +513,41 @@ ul .nav-list-item{
     transform: translateY(0);
 }
 
-/* ========Оформлення 2 секції=======*/
-.main-section-b .container{
+/* ========Оформлення футера=======*/
+.footer-wr.container{
     display: flex;
-    align-items: center;
+    align-items: baseline
+}
+.footer-text-logo{
+    margin-right: 120px;
+}
+.footer-link-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+.footer-list-link{
+    display: flex;
+    gap: 16px;
+}
+.footer-list-item{
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.footer-list-item-link{
+    width: 40px;
+    height: 40px;
+    background-color:#4d5ae5;
+    border-radius:50%;
+    display: flex; 
+    align-items: center; 
     justify-content: center;
-    height: 112px;
-    border-radius: 4px;
+}
+.footer-list-item-link:hover,.footer-list-item-link:focus{
+    background-color: #31d0aa;
+}
+.footer-list-item-link-svg{
+    fill: #f4f4fd;
 }
