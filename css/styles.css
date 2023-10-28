@@ -514,7 +514,7 @@ ul .nav-list-item{
 }
 
 /* ========Оформлення футера=======*/
-.footer-text-logo{
+.content-bas{
     display: flex;
     align-items: baseline
 }
