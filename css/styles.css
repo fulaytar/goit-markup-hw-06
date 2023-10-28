@@ -409,10 +409,8 @@ background-position: center;
 .address-menu-link1{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-ul .nav-list-item{
-    position: relative;
-}
 .navigation-list-link{
+    position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current-page{
