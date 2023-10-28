@@ -514,7 +514,7 @@ ul .nav-list-item{
 }
 
 /* ========Оформлення футера=======*/
-.footer-wr.container{
+.footer-text-logo{
     display: flex;
     align-items: baseline
 }
@@ -533,9 +533,6 @@ ul .nav-list-item{
     display: flex;
     gap: 16px;
 }
-.footer-list-item{
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
 .footer-list-item-link{
     width: 40px;
     height: 40px;
@@ -544,6 +541,7 @@ ul .nav-list-item{
     display: flex; 
     align-items: center; 
     justify-content: center;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-list-item-link:hover,.footer-list-item-link:focus{
     background-color: #31d0aa;
