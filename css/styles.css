@@ -44,13 +44,13 @@ ul{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-menu-link1,.address-menu-link2{
+.address-menu-link1{
 color: #434455;
 }
-.address-menu-link1:hover,.address-menu-link2:hover{
+.address-menu-link1:hover{
 color: #404bbf
 }
-.address-menu-link1:focus,.address-menu-link2:focus{
+.address-menu-link1:focus{
     color: #404bbf
 }
 /*Кінець оформлення навігації*/
@@ -406,11 +406,12 @@ background-position: center;
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 /* ========Оформлення навігації=======*/
-.contact-link-header{
+.address-menu-link1{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 ul .nav-list-item{
-    position: relative;}
+    position: relative;
+}
 .navigation-list-link{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
