@@ -1,4 +1,4 @@
-/*стилізація body*/
+/*=================стилізація body==========*/
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -11,9 +11,9 @@ a{
 ul{
     list-style: none;
 }
-/* Кінець стилізація body*/
+/* ==============Кінець стилізація body===================*/
 
-/*стилізація логотипа*/
+/*====================стилізація логотипа=================*/
 .header-wr-navigation-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -26,9 +26,9 @@ ul{
 .header-wr-navigation-logo-color{
     color:#2e2f42 ;
 }
-/* Кінець стилізація логотипа*/
+/*=============Кінець стилізація логотипа===================*/
 
-/*Оформлення навігації*/
+/*===============Оформлення навігації=======================*/
 .header-wr-navigation-list{
     font-weight: 500;
     font-size: 16px;
@@ -53,7 +53,7 @@ color: #404bbf
 .address-menu-link1:focus{
     color: #404bbf
 }
-/*Кінець оформлення навігації*/
+/*===============Кінець оформлення навігації==================*/
 /*Секція 1. Кнопка*/
 .main-wr-section-text{
     font-size: 56px;
@@ -377,6 +377,8 @@ background-position: center;
 .main-wr-element-a-button{
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* =========Секція герой end=======*/
+
 /* =========Секція 2=======*/
 .icon-benefits{
     height: 64px;
@@ -399,12 +401,16 @@ background-position: center;
     height: 112px;
     border-radius: 4px;
 }
+/* =========Секція 2 end=======*/
+
 /* =========Додавання хедера=======*/
 .header-wr {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+/* =========Додавання хедера end=======*/
+
 /* ========Оформлення навігації=======*/
 .address-menu-link1{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -444,6 +450,8 @@ background-position: center;
 .navigation-list-link:focus {
     color: #404BBF;
 }
+/* ========Оформлення навігації end=======*/
+
 /* ========Оформлення 3 секція =======*/
 .main-section-c-list li{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
@@ -481,6 +489,8 @@ background-position: center;
 .icons-link-svg{
     fill: #F4F4FD;
 }
+/* ========Оформлення 3 секція  end=======*/
+
 /* ========Оформлення  4 section overflow=======*/
 .our-portfolio-list-item{
     position: relative;
@@ -511,6 +521,7 @@ background-position: center;
 .images-app:hover .overflow-info-text{
     transform: translateY(0);
 }
+/* ========Оформлення  4 section overflow end=======*/
 
 /* ========Оформлення футера=======*/
 .content-bas{
@@ -548,3 +559,4 @@ background-position: center;
 .footer-list-item-link-svg{
     fill: #f4f4fd;
 }
+/* ========Оформлення футера 4hm end=======*/
