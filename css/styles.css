@@ -567,6 +567,10 @@ background-position: center;
 .footer-link{
     margin-right: 80px;
 }
+.style-footer-subscribe{
+    display: flex;
+    gap:24px;
+}
 .footer-form-link{
 width: 453px;
 height: 80px;
@@ -580,21 +584,27 @@ color: #FFFFFF;
 margin-bottom: 16px;
 }
 .input-style-footer{
+    width: 264px;
     height: 40px;
     border-radius: 4px;
-    border: 1px solid #FFFFFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: inherit;
-    padding: 8px 16px;
+    border: 1px solid #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: transparent;
+    padding-left: 16px;
     margin-right: 24px;
     color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+
 }
 .input-style-footer::placeholder{
         font-size: 12px;
         font-weight: 400;
         line-height: 2;/* 200% */
         letter-spacing: 0.04em;
-        color: #FFFFFF;
+        color:#ffffff;
 }
 .input-style-footer:focus {
     border-color: #4D5AE5;
@@ -602,9 +612,12 @@ margin-bottom: 16px;
     outline-offset: 2px;
 }
 .button-style-footer{
-    display: inline-flex;
-    padding: 8px 24px;
-    gap: 16px;
+    display: flex;
+    min-width: 165px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
     border: transparent;
     border-radius: 4px;
     background-color: #4D5AE5;
@@ -617,6 +630,7 @@ margin-bottom: 16px;
 }
 .button-style-footer-icon{
     fill: #FFFFFF;
+    margin-left: 16px;
 }
 .button-style-footer:focus,.button-style-footer:hover{
     background-color: #31D0AA;
