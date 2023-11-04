@@ -645,7 +645,6 @@ margin-bottom: 16px;
 /*===================Модальне вікно==========================*/
 .modal-window{
     width: 408px;
-    min-height: 584px;
     background-color: #FCFCFC;
     border-radius: 4px;
     position: absolute;
@@ -774,16 +773,41 @@ margin-bottom: 16px;
     display: flex;
     width: 169px;
     height: 56px;
+    border: none;
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 24px;
     font-weight: 500;
-    line-height: 1.5;/* 150% */
+    line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 4px;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+} 
+.button-form-send:hover,.button-form-send:focus{
+    background-color: #404BBF;
 }
 /*===================Стилі button send modal==========================*/
+.form-chekbox-item-label{
+font-size: 12px;
+font-weight: 400;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.04em;
+color:#8E8F99;
+}
+.private-policy{
+    color:  #4D5AE5;
+    text-decoration-line: underline;
+}
+.private-policy:focus,.private-policy:hover{
+    color:#404BBF;
+}
+.form-chekbox{
+    margin-bottom: 24px;
+}
