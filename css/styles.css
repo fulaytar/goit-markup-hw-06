@@ -705,6 +705,11 @@ margin-bottom: 16px;
 .styles-input-label{
     display: block;
     margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;/* 116.667% */
+    letter-spacing: 0.04em;
+    color: #8E8F99;
 }
 .styles-input{
     display: block;
@@ -715,6 +720,7 @@ margin-bottom: 16px;
     padding-left: 38px;
     margin-bottom: 8px;
 }
+
 /*===================Іконка у інпуті==========================*/
 .add-icon-input{
     position: absolute;
@@ -733,10 +739,51 @@ margin-bottom: 16px;
     outline: transparent;
     outline-offset: 2px;
 }
-
+.styles-input:focus+.add-icon-input{
+    fill: #4D5AE5;
+}
 
 /*===================Стилі інпутів при ефектах==========================*/
 
-/*===================Стилі модального вікна==========================*/
+/*===================Стилі textarea==========================*/
+.area-text-coment{
+width: 100%;
+resize: none;
+height: 120px;
+border: 1px solid rgba(46, 47, 66, 0.40);
+border-radius: 4px;
+padding: 8px 16px;
+margin-bottom: 16px;
+}
+.area-text-coment::placeholder{
+    color: rgba(46, 47, 66, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;/* 116.667% */
+    letter-spacing: 0.04em;
+}
+.area-text-coment:focus{
+    border-color: #4D5AE5;
+    outline-color: transparent;
+    outline-offset: 2px;
+}
+/*===================Стилі textarea==========================*/
 
-
+/*===================Стилі button send modal==========================*/
+.button-form-send{
+    display: flex;
+    width: 169px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 1.5;/* 150% */
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+}
+/*===================Стилі button send modal==========================*/
