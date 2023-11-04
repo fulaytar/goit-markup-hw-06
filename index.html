@@ -492,7 +492,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal-window">
         <button class="button-modal-window" type="button">
           <svg
@@ -512,18 +512,18 @@
         </p>
         <form class="form-input-box">
           <div class="input-box">
-            <label class="styles-input-label" for="add-user-name">Name</label>
+            <label class="styles-input-label" for="user-name">Name</label>
             <div class="decor-input-svg">
               <input
                 class="styles-input"
                 type="text"
                 name="user_name"
-                id="add-user-name"
+                id="user-name"
                 pattern="[A-Za-zА-Яа-яіІїЇєЄґҐ\s]+"
                 title="Ivan"
                 required
               />
-              <svg class="add-icon-input" width="18" height="18">
+              <svg class="add-icon-input" width="18" height="24">
                 <use
                   class="add-icon-input-item"
                   href="./images/icons.svg#icon-person-input"
@@ -571,11 +571,11 @@
             </div>
           </div>
           <div class="input-text-coment">
-            <label class="styles-input-label" for="user-coment">Comment</label>
+            <label class="styles-input-label" for="user-comment">Comment</label>
             <textarea
               class="area-text-coment"
-              name="user_coment"
-              id="user-coment"
+              name="user_comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -583,12 +583,12 @@
             <input
               type="checkbox"
               class="form-chekbox-item visually-hidden"
-              name="user_polisity"
+              name="user-privacy"
               value="true"
-              id="user-privat-policity"
+              id="user-privacy"
               required
             />
-            <label class="form-chekbox-item-label" for="user-privat-policity">
+            <label class="form-chekbox-item-label" for="user-privacy">
               <span class="fake-chekbox"
                 ><svg class="fake-chekbox-item" width="10" height="8">
                   <use
