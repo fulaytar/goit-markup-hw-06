@@ -106,7 +106,7 @@ color:#2E2F42
 }
 /*=================Mobile стилі 320px==========*/
 
-/*=================Mobile стилі 768px+==========*/
+/*=================Tablet стилі 768px+==========*/
 @media screen and (min-width:768px) {
 .header-wr{
     display: flex;
@@ -159,9 +159,9 @@ flex-direction: column;
 row-gap: 12px;
 }
 }
-/*=================Mobile стилі 768px+==========*/
+/*=================Tablet стилі 768px+==========*/
 
-/*=================Mobile стилі 1158px+==========*/
+/*=================Desktop стилі 1158px+==========*/
 @media screen and (min-width:1158px){
 .header-wr {
             margin-left: auto;
@@ -178,13 +178,10 @@ row-gap: 12px;
         display: flex;
         padding: 0 15px;
      }
-         .address-wr{
-            align-items: center;
-         }
         .address-wr-menu{
 flex-direction: row;
 column-gap:40px;
-align-items: center;
+align-items:center;
         }
         .header-wr-navigation{
             margin-right: auto;
@@ -192,5 +189,10 @@ align-items: center;
         .address-wr-menu-item1{
             display: flex;
         }
+         .address-menu-link1 {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        }
 }
-/*=================Mobile стилі 1158px+==========*/
+/*=================Desktop стилі 1158px+==========*/
