@@ -97,6 +97,17 @@ button{
         .address-wr{
             display: none;
         }
+        .address-menu-link1 {
+        color: #434455;
+}
+        
+.address-menu-link1:hover {
+color: #404bbf
+}
+        
+ .address-menu-link1:focus {
+  color: #404bbf
+ }
 /*=================/Хедер мобайл==========*/
 /*================= 1 section мобайл==========*/
 .first-container{
@@ -131,6 +142,15 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.04em;
 color: #FFFFFF;
     }
+    .main-wr-element-a-button:hover {
+        background-color: #404BBF;
+        }
+    
+    .main-wr-element-a-button:focus {
+        outline: none;
+        /* Видаляємо фокусовану рамку за замовчуванням (це важливо для доступності) */
+        background-color: #404BBF;
+        }
     .main-wr-element-a {
         display: block;
     margin: 0 auto;
@@ -227,26 +247,44 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 color: #434455;
 }
-.people-icons-list{
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 24px;
-}
-.icons-list-item{
+.icons-list-item {
     display: flex;
-    justify-content: center; /* Центрує по горизонталі */
-      align-items: center; /* Центрує по вертикалі */
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-link {
+    background-color: #4d5ae5;
+    border-radius: 50%;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-link:hover,
+.icons-link:focus {
+    background-color: #404bbf;
+}
+
+.people-icons-list {
+    width: 100%;
+    height: 100%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.icons-list-item {
+    border-radius: 40px;
     background-color: #4D5AE5;
 }
-.icons-link{
-    line-height: 0;
-}
-.icons-link-svg{
-fill: #F4F4FD;
+
+.icons-link-svg {
+    fill: #F4F4FD;
 }
 /*================= 2 section мобайл==========*/
 /*================= 3 section мобайл==========*/
@@ -273,7 +311,6 @@ margin-bottom: 72px;
     border: 1px solid #F4F4FD;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     }
-
 .our-portfolio-list-item-name{
         font-size: 20px;
         font-weight: 500;
@@ -294,6 +331,10 @@ letter-spacing: 0.02em;
     padding-right: 16px;
     padding-bottom: 32px;
     margin-top: 32px;
+}
+.icons-link:hover,
+.icons-link:focus {
+    background-color: #404bbf;
 }
 /*================= 3 section мобайл==========*/
 
@@ -340,9 +381,15 @@ color: #F4F4FD;
     padding-right: 40px;
     gap:16px;
 }
-.footer-list-item-link{
-    fill: #F4F4FD;
-    line-height: 0;
+.footer-list-item-link {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link-item{
     height: 40px;
@@ -352,6 +399,13 @@ color: #F4F4FD;
     align-items: center;
     border-radius: 50%;
     background-color: #4D5AE5;
+}
+.footer-list-item-link:hover,
+.footer-list-item-link:focus {
+    background-color: #31d0aa;
+}
+.footer-list-item-link-svg {
+    fill: #f4f4fd;
 }
 .label-style-footer{
 text-align: center;
@@ -388,6 +442,15 @@ margin-bottom: 16px;
     line-height: 2;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+}
+.input-style-footer:focus {
+    border-color: #4D5AE5;
+    outline: transparent;
+    outline-offset: 2px;
+}
+.button-style-footer:focus,
+.button-style-footer:hover {
+    background-color: #31D0AA;
 }
 .button-style-footer{
     width: 165px;
