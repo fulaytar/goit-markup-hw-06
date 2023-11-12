@@ -40,11 +40,10 @@ button{
     cursor: pointer;
 }
 /* Оформлення контейнерів */
-.container {
-    margin: 0;
-    padding-left: 16px;
-    padding-right: 16px;
+.container{
+    padding: 16px;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -57,41 +56,30 @@ button{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.footer-wr{display: none;}
+.backdrop{display: none;}
 /*=================Загальні стилі==========*/
 
-/*=================Mobile стилі min 320px==========*/
-@media screen and (min-width:320px) {
-    .header-wr{
-        width: 320px;
-        margin-left: auto;
-        margin-right: auto;
-        border-bottom: 1px solid  #E7E9FC;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-    }
-    .header-container{
-padding: 16px;
+/*=================Хедер мобайл==========*/
 
-    }
-    .header-wr-navigation-list{
-        display: none;
-    }
-    .address-wr{
-        display: none;
-    }
     .header-container{
         display:flex;
         justify-content: space-between;
-    }
-    .but-burger{
-        border:none;
-        padding: 0;
-        color:transparent;
-        line-height: 0;
-        fill:#2F2F37;
-        background-color: inherit;
-    }
-    .header-wr-navigation-logo{
+        }
+        .header-wr{
+        border-bottom: 1px solid #E7E9FC;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+        }
+        .but-burger{
+            border:none;
+            padding: 0;
+            color:#2F2F37;
+            line-height: 0;
+            fill:#2F2F37;
+            background-color: inherit;
+        }
+        .header-wr-navigation-logo{
             font-family: Raleway;
             font-size: 18px;
             font-weight: 700;
@@ -99,100 +87,206 @@ padding: 16px;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #4D5AE5;
+        }
+        .header-wr-navigation-logo-color{
+        color:#2E2F42
+        }
+        .header-wr-navigation-list{
+            display: none;
+        }
+        .address-wr{
+            display: none;
+        }
+/*=================/Хедер мобайл==========*/
+/*================= 1 section мобайл==========*/
+.first-container{
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+    .main-wr-section-text{
+        width: 150px;
+margin-bottom: 72px;
+margin-right: auto;
+margin-left: auto;
+width: 160px;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #FFFFFF;
     }
-    .header-wr-navigation-logo-color{
-color:#2E2F42
-}
-}
-/*=================Mobile стилі 320px==========*/
-
-/*=================Tablet стилі 768px+==========*/
-@media screen and (min-width:768px) {
-.header-wr{
-    display: flex;
-    width: 768px;
-}
-.container{
-    width: 736px;
-    padding: 16px;
-}
-.header-container{
-    margin: 0 auto;
-}
-.header-wr-navigation-logo{
-    margin-right: 120px;
-}
-.header-wr-navigation-list{
-    display: flex;
-    gap:40px;
-}
-.address-wr{
-    display: flex;
-}
-.but-burger{
-    display: none;
-}
-.header-wr-navigation{
-    display: flex;
-    align-items: center;
-}
-.navigation-list-link{
+    .main-wr-element-a-button{
+        margin: 0 auto;
+border: none;
+display: flex;
+padding: 16px 32px;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 font-size: 16px;
 font-weight: 500;
-line-height: 1.5;/* 150% */
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+color: #FFFFFF;
+    }
+    .main-wr-element-a {
+        display: block;
+    margin: 0 auto;
+        background-color: #2e2f42;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/mobile/hero-mobile.jpg);
+    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 1440px;
+    }
+/*================= 1 section мобайл==========*/
+
+/*================= 2 section мобайл==========*/
+.second-container{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.card-icon{
+    display: none;
+}
+.main-section-b-text{
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+margin-bottom: 8px;
+}
+.main-section-b-p{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+color: #434455;
+}
+.main-section-b-menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 72px;
+}
+/*================= 2 section мобайл==========*/
+
+.container-team{
+        padding: 96px 28px;
+}
+.main-section-c-text{
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+margin-bottom: 72px;
+}
+.main-section-c-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 72px;
+    background:  #FFFFFF;
+}
+.photo-team{
+    margin-bottom: 32px;
+}
+.people-name-job{
+display: flex;
+width: 232px;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+gap: 8px;
+}
+.main-section-c-name{
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
-.address-menu-link1{
-    display: flex;
-/* Small Text */
-font-size: 12px;
-font-style: normal;
+.main-section-c-name-details{
+text-align: center;
+font-size: 16px;
 font-weight: 400;
-line-height: 1.17;/* 116.667% */
-letter-spacing: 0.04em;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
 color: #434455;
 }
-.address-wr-menu{
+.people-icons-list{
 display: flex;
-flex-direction: column;
-row-gap: 12px;
+justify-content: center;
+align-items: center;
+gap: 24px;
 }
+.icons-list-item{
+    display: flex;
+    justify-content: center; /* Центрує по горизонталі */
+      align-items: center; /* Центрує по вертикалі */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
 }
+.icons-link-svg{
+fill: #F4F4FD;
+}
+
+/*=================Mobile стилі min 320px==========*/
+@media screen and (min-width:320px) {
+    .container{
+width: 320px;
+    }
+    .header-wr{
+    width: 320px;
+    margin: 0 auto;
+    }
+    .main-wr-element{
+    width: 320px;
+    margin: 0 auto;
+    }
+    .main-section-b{
+    width: 320px;
+    margin: 0 auto
+    }
+    .main-section-c{
+    width: 320px;
+    margin: 0 auto;
+    background-color: #F4F4FD;
+    }
+
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .main-wr-element-a  {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/mobile/hero-mobile@2x.jpg');
+  }
+}
+@media screen and (min-resolution: 288dpi) and (max-width: 767px),
+  screen and (min-resolution: 3dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 3) and (max-width: 767px) {
+    .main-wr-element-a  {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/mobile/hero-mobile@3x.jpg');
+  }
+}
+
+/*=================Mobile стилі 320px==========*/
+
+/*=================Tablet стилі 768px+==========*/
+
 /*=================Tablet стилі 768px+==========*/
 
 /*=================Desktop стилі 1158px+==========*/
-@media screen and (min-width:1158px){
-.header-wr {
-            margin-left: auto;
-            margin-right: auto;
-            height: 72px;
-            width: auto;
-            max-width: 1440px;
-    }
-        .header-wr-navigation-logo {
-            margin-right: 76px;
-        }
-    .header-container {
-        width: 1158px;
-        display: flex;
-        padding: 0 15px;
-     }
-        .address-wr-menu{
-flex-direction: row;
-column-gap:40px;
-align-items:center;
-        }
-        .header-wr-navigation{
-            margin-right: auto;
-        }
-        .address-wr-menu-item1{
-            display: flex;
-        }
-         .address-menu-link1 {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        }
-}
+
 /*=================Desktop стилі 1158px+==========*/
