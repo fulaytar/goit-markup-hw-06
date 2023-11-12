@@ -56,8 +56,8 @@ button{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.footer-wr{display: none;}
-.backdrop{display: none;}
+.backdrop-desktop{display: none;}
+.overflow-info-text{display: none;}
 /*=================Загальні стилі==========*/
 
 /*=================Хедер мобайл==========*/
@@ -174,9 +174,11 @@ color: #434455;
     row-gap: 72px;
 }
 /*================= 2 section мобайл==========*/
-
+.main-section-c{
+background-color: #F4F4FD;
+}
 .container-team{
-        padding: 96px 28px;
+padding: 96px 28px;
 }
 .main-section-c-text{
 text-align: center;
@@ -191,13 +193,14 @@ margin-bottom: 72px;
 .main-section-c-list{
     display: flex;
     flex-direction: column;
-    row-gap: 72px;
-    background:  #FFFFFF;
+    gap: 72px;
 }
-.photo-team{
-    margin-bottom: 32px;
+.main-section-c-list-item{
+        background-color: #FFFFFF;
 }
 .people-name-job{
+margin-top: 32px;
+padding-bottom: 32px;
 display: flex;
 width: 232px;
 flex-direction: column;
@@ -244,6 +247,26 @@ fill: #F4F4FD;
 /*================= 3 section мобайл==========*/
 .container-portfolio{
     padding: 96px 16px;
+}
+.our-portfolio{
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+/* 111.111% */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+margin-bottom: 72px;
+}
+.our-portfolio-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+}
+
+.app-info{
+    margin-top: 32px;
 }
 /*=================Mobile стилі min 320px==========*/
 @media screen and (min-width:320px) {
