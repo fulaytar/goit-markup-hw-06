@@ -240,7 +240,11 @@ gap: 24px;
 .icons-link-svg{
 fill: #F4F4FD;
 }
-
+/*================= 2 section мобайл==========*/
+/*================= 3 section мобайл==========*/
+.container-portfolio{
+    padding: 96px 16px;
+}
 /*=================Mobile стилі min 320px==========*/
 @media screen and (min-width:320px) {
     .container{
@@ -262,6 +266,10 @@ width: 320px;
     width: 320px;
     margin: 0 auto;
     background-color: #F4F4FD;
+    }
+    .our{
+    width: 320px;
+    margin: 0 auto
     }
 
 }
