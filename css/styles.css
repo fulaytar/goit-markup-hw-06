@@ -196,7 +196,9 @@ margin-bottom: 72px;
     gap: 72px;
 }
 .main-section-c-list-item{
-        background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    background-color: #FFFFFF;
 }
 .people-name-job{
 margin-top: 32px;
@@ -240,6 +242,9 @@ gap: 24px;
     border-radius: 50%;
     background-color: #4D5AE5;
 }
+.icons-link{
+    line-height: 0;
+}
 .icons-link-svg{
 fill: #F4F4FD;
 }
@@ -264,10 +269,144 @@ margin-bottom: 72px;
     flex-direction: column;
     row-gap: 48px;
 }
+.our-portfolio-list-item{
+    border: 1px solid #F4F4FD;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    }
 
+.our-portfolio-list-item-name{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;/* 120% */
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+        color: #2E2F42;
+}
+.our-portfolio-list-item-name-text{
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;/* 150% */
+letter-spacing: 0.02em;
+
+}
 .app-info{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
     margin-top: 32px;
 }
+/*================= 3 section мобайл==========*/
+
+/*================= footer мобайл==========*/
+.content-bas{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+.footer-wr-color{
+    display: block;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;/* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        text-align: center;
+        margin-bottom: 16px;
+}
+.footer-wr-logo{
+    color:#F4F4FD;
+}
+.footer-wr-text{
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;/* 150% */
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+.footer-link-text{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;/* 150% */
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 16px;
+}
+.footer-list-link{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap:16px;
+}
+.footer-list-item-link{
+    fill: #F4F4FD;
+    line-height: 0;
+}
+.footer-link-item{
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+.label-style-footer{
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;/* 150% */
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+.style-footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap:16px
+}
+.input-style-footer{
+    width: 288px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    outline:transparent;
+}
+.button-style-footer{
+    width: 165px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
+    margin: 0 auto;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background-color:  #4D5AE5;
+}
+.button-style-footer-icon{
+    fill:#FFFFFF;
+}
+/*================= footer мобайл==========*/
+
+
 /*=================Mobile стилі min 320px==========*/
 @media screen and (min-width:320px) {
     .container{
@@ -293,6 +432,17 @@ width: 320px;
     .our{
     width: 320px;
     margin: 0 auto
+    }
+    .footer-wr{
+        width: 320px;
+        margin: 0 auto;
+        background-color: #2E2F42;
+    }
+    .content-bas{
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 96px;
+    padding-bottom: 96px;
     }
 
 }
