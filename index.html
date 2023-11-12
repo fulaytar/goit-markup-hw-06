@@ -148,16 +148,39 @@
           <h2 class="main-section-c-text">Our Team</h2>
           <ul class="main-section-c-list">
             <li class="main-section-c-list-item">
-              <img
-                srcset="
-                  ./images/mobile/mark-mobile.jpg    1x,
-                  ./images/mobile/mark-mobile@2x.jpg 2x
-                "
-                src="./images/mobile/mark-mobile.jpg"
-                alt="Mark Guerrero photo"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <!-- Для мобільних пристроїв -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/mark-mobile.jpg    1x,
+                    ./images/mobile/mark-mobile@2x.jpg 2x
+                  "
+                />
+                <!-- Для планшетів -->
+                <source
+                  media="(min-width: 768px) and (max-width: 1157px)"
+                  srcset="
+                    ./images/tablet/mark-tablet.jpg    1x,
+                    ./images/tablet/mark-tablet@2x.jpg 2x
+                  "
+                />
+                <!-- Для настільних комп'ютерів -->
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/desktop/mark-desktop.jpg    1x,
+                    ./images/desktop/mark-desktop@2x.jpg 2x
+                  "
+                />
+                <!-- Запасний варіант для браузерів, які не підтримують picture -->
+                <img
+                  src="./images/desktop/mark-desktop.jpg"
+                  alt="Mark Guerrero photo"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div class="people-name-job">
                 <h3 class="main-section-c-name">Mark Guerrero</h3>
                 <p class="main-section-c-name-details">Product Designer</p>
@@ -196,16 +219,39 @@
               </div>
             </li>
             <li class="main-section-c-list-item">
-              <img
-                srcset="
-                  ./images/mobile/tom-mobile.jpg    1x,
-                  ./images/mobile/tom-mobile@2x.jpg 2x
-                "
-                src="./images/tom-mobile.jpg"
-                alt="Tom Ford photo"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <!-- Для мобільних пристроїв -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/tom-mobile.jpg    1x,
+                    ./images/mobile/tom-mobile@2x.jpg 2x
+                  "
+                />
+                <!-- Для планшетів -->
+                <source
+                  media="(min-width: 768px) and (max-width: 1157px)"
+                  srcset="
+                    ./images/tablet/tom-tablet.jpg    1x,
+                    ./images/tablet/tom-tablet@2x.jpg 2x
+                  "
+                />
+                <!-- Для настільних комп'ютерів -->
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/desktop/tom-desktop.jpg    1x,
+                    ./images/desktop/tom-desktop@2x.jpg 2x
+                  "
+                />
+                <!-- Запасний варіант для браузерів, які не підтримують picture -->
+                <img
+                  src="./images/desktop/tom-desktop.jpg"
+                  alt="Tom Ford photo"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div class="people-name-job">
                 <h3 class="main-section-c-name">Tom Ford</h3>
                 <p class="main-section-c-name-details">Frontend Developer</p>
@@ -247,16 +293,39 @@
               </div>
             </li>
             <li class="main-section-c-list-item">
-              <img
-                srcset="
-                  ./images/mobile/camila-mobile.jpg    1x,
-                  ./images/mobile/camila-mobile@2x.jpg 2x
-                "
-                src="./images/camila-mobile.jpg"
-                alt="Camila Garcia photo"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <!-- Для мобільних пристроїв (max-width: 767px) -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/camila-mobile.jpg    1x,
+                    ./images/mobile/camila-mobile@2x.jpg 2x
+                  "
+                />
+                <!-- Для планшетів (min-width: 768px) and (max-width: 1157px) -->
+                <source
+                  media="(min-width: 768px) and (max-width: 1157px)"
+                  srcset="
+                    ./images/tablet/camila-tablet.jpg    1x,
+                    ./images/tablet/camila-tablet@2x.jpg 2x
+                  "
+                />
+                <!-- Для настільних комп'ютерів (min-width: 1158px) -->
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/desktop/camila-desktop.jpg    1x,
+                    ./images/desktop/camila-desktop@2x.jpg 2x
+                  "
+                />
+                <!-- Запасний варіант для браузерів, які не підтримують picture -->
+                <img
+                  src="./images/desktop/camila-desktop.jpg"
+                  alt="Camila Garcia photo"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div class="people-name-job">
                 <h3 class="main-section-c-name">Camila Garcia</h3>
                 <p class="main-section-c-name-details">Marketing</p>
@@ -295,16 +364,39 @@
               </div>
             </li>
             <li class="main-section-c-list-item">
-              <img
-                srcset="
-                  ./images/mobile/daniel-mobile.jpg    1x,
-                  ./images/mobile/daniel-mobile@2x.jpg 2x
-                "
-                src="./images/daniel-mobile.jpg"
-                alt="Daniel Wilson photo"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <!-- Для мобільних пристроїв (max-width: 767px) -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/daniel-mobile.jpg    1x,
+                    ./images/mobile/daniel-mobile@2x.jpg 2x
+                  "
+                />
+                <!-- Для планшетів (min-width: 768px) and (max-width: 1157px) -->
+                <source
+                  media="(min-width: 768px) and (max-width: 1157px)"
+                  srcset="
+                    ./images/tablet/daniel-tablet.jpg    1x,
+                    ./images/tablet/daniel-tablet@2x.jpg 2x
+                  "
+                />
+                <!-- Для настільних комп'ютерів (min-width: 1158px) -->
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/desktop/daniel-desktop.jpg    1x,
+                    ./images/desktop/daniel-desktop@2x.jpg 2x
+                  "
+                />
+                <!-- Запасний варіант для браузерів, які не підтримують picture -->
+                <img
+                  src="./images/desktop/daniel-desktop.jpg"
+                  alt="Daniel Wilson photo"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div class="people-name-job">
                 <h3 class="main-section-c-name">Daniel Wilson</h3>
                 <p class="main-section-c-name-details">UI Designer</p>
@@ -353,11 +445,37 @@
           <ul class="our-portfolio-list">
             <li class="our-portfolio-list-item">
               <div class="images-app">
-                <img
-                  class="photo-app"
-                  src="./images/mobile/bank-app-mobile.jpg"
-                  alt="Banking App"
-                />
+                <picture>
+                  <!-- Для мобільних пристроїв (max-width: 767px) -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/bank-app-mobile.jpg    1x,
+                      ./images/mobile/bank-app-mobile@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для планшетів (min-width: 768px) and (max-width: 1157px) -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/tablet/bank-app-tablet.jpg    1x,
+                      ./images/tablet/bank-app-tablet@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для настільних комп'ютерів (min-width: 1158px) -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/desktop/bank-app-desktop.jpg    1x,
+                      ./images/desktop/bank-app-desktop@2x.jpg 2x
+                    "
+                  />
+                  <!-- Запасний варіант для браузерів, які не підтримують picture -->
+                  <img
+                    src="./images/desktop/bank-app-desktop.jpg"
+                    alt="Banking App photo"
+                  />
+                </picture>
                 <p class="overflow-info-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -371,11 +489,37 @@
             </li>
             <li class="our-portfolio-list-item">
               <div class="images-app">
-                <img
-                  class="photo-app"
-                  src="./images/mobile/payment-mobile.jpg"
-                  alt="Cashless Payment"
-                />
+                <picture>
+                  <!-- Для мобільних пристроїв (max-width: 767px) -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/payment-mobile.jpg    1x,
+                      ./images/mobile/payment-mobile@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для планшетів (min-width: 768px) and (max-width: 1157px) -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/tablet/payment-tablet.jpg    1x,
+                      ./images/tablet/payment-tablet@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для настільних комп'ютерів (min-width: 1158px) -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/desktop/payment-desktop.jpg    1x,
+                      ./images/desktop/payment-desktop@2x.jpg 2x
+                    "
+                  />
+                  <!-- Запасний варіант для браузерів, які не підтримують picture -->
+                  <img
+                    src="./images/desktop/payment-desktop.jpg"
+                    alt="Cashless Payment photo"
+                  />
+                </picture>
                 <p class="overflow-info-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -389,11 +533,39 @@
             </li>
             <li class="our-portfolio-list-item">
               <div class="images-app">
-                <img
-                  class="photo-app"
-                  src="./images/mobile/meditation-mobile.jpg"
-                  alt="Meditation App"
-                />
+                <picture>
+                  <!-- Для мобільних пристроїв (max-width: 767px) -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/meditation-mobile.jpg    1x,
+                      ./images/mobile/meditation-mobile@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для планшетів (min-width: 768px) and (max-width: 1157px) -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/tablet/meditation-tablet.jpg    1x,
+                      ./images/tablet/meditation-tablet@2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Для настільних комп'ютерів (min-width: 1158px) -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/desktop/meditation-desktop.jpg    1x,
+                      ./images/desktop/meditation-desktop@2x.jpg 2x
+                    "
+                  />
+
+                  <!-- Запасний варіант для браузерів, які не підтримують picture -->
+                  <img
+                    src="./images/desktop/meditation-desktop.jpg"
+                    alt="Meditation App photo"
+                  />
+                </picture>
                 <p class="overflow-info-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -407,11 +579,37 @@
             </li>
             <li class="our-portfolio-list-item">
               <div class="images-app">
-                <img
-                  class="photo-app"
-                  src="./images/mobile/taxi-mobile.jpg"
-                  alt="Taxi Service"
-                />
+                <picture>
+                  <!-- Для мобільних пристроїв (max-width: 767px) -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/taxi-mobile.jpg    1x,
+                      ./images/mobile/taxi-mobile@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для планшетів (min-width: 768px) and (max-width: 1157px) -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/tablet/taxi-tablet.jpg    1x,
+                      ./images/tablet/taxi-tablet@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для настільних комп'ютерів (min-width: 1158px) -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/desktop/taxi-desktop.jpg    1x,
+                      ./images/desktop/taxi-desktop@2x.jpg 2x
+                    "
+                  />
+                  <!-- Запасний варіант для браузерів, які не підтримують picture -->
+                  <img
+                    src="./images/desktop/taxi-desktop.jpg"
+                    alt="Taxi Service photo"
+                  />
+                </picture>
                 <p class="overflow-info-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -425,11 +623,37 @@
             </li>
             <li class="our-portfolio-list-item">
               <div class="images-app">
-                <img
-                  class="photo-app"
-                  src="./images/mobile/screen-mobile.jpg"
-                  alt="Screen Illustrations"
-                />
+                <picture>
+                  <!-- Для мобільних пристроїв (max-width: 767px) -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/screen-mobile.jpg    1x,
+                      ./images/mobile/screen-mobile@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для планшетів (min-width: 768px) and (max-width: 1157px) -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/tablet/screen-tablet.jpg    1x,
+                      ./images/tablet/screen-tablet@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для настільних комп'ютерів (min-width: 1158px) -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/desktop/screen-desktop.jpg    1x,
+                      ./images/desktop/screen-desktop@2x.jpg 2x
+                    "
+                  />
+                  <!-- Запасний варіант для браузерів, які не підтримують picture -->
+                  <img
+                    src="./images/desktop/screen-desktop.jpg"
+                    alt="Screen Illustrations photo"
+                  />
+                </picture>
                 <p class="overflow-info-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -445,11 +669,37 @@
             </li>
             <li class="our-portfolio-list-item">
               <div class="images-app">
-                <img
-                  class="photo-app"
-                  src="./images/mobile/courses-mobile.jpg"
-                  alt="Online Courses"
-                />
+                <picture>
+                  <!-- Для мобільних пристроїв (max-width: 767px) -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/courses-mobile.jpg    1x,
+                      ./images/mobile/courses-mobile@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для планшетів (min-width: 768px) and (max-width: 1157px) -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1157px)"
+                    srcset="
+                      ./images/tablet/courses-tablet.jpg    1x,
+                      ./images/tablet/courses-tablet@2x.jpg 2x
+                    "
+                  />
+                  <!-- Для настільних комп'ютерів (min-width: 1158px) -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/desktop/courses-desktop.jpg    1x,
+                      ./images/desktop/courses-desktop@2x.jpg 2x
+                    "
+                  />
+                  <!-- Запасний варіант для браузерів, які не підтримують picture -->
+                  <img
+                    src="./images/desktop/courses-desktop.jpg"
+                    alt="Online Courses photo"
+                  />
+                </picture>
                 <p class="overflow-info-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
