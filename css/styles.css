@@ -541,7 +541,74 @@ width: 320px;
 /*=================Mobile стилі 320px==========*/
 
 /*=================Tablet стилі 768px+==========*/
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+    }
 
+    .header-wr {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .main-wr-element {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .main-section-b {
+        width: 768px;
+        margin: 0 auto
+    }
+
+    .main-section-c {
+        width: 768px;
+        margin: 0 auto;
+        background-color: #F4F4FD;
+    }
+
+    .our {
+        width: 768px;
+        margin: 0 auto
+    }
+
+    .footer-wr {
+        width: 768px;
+        margin: 0 auto;
+        background-color: #2E2F42;
+    }
+
+    .content-bas {
+        width: 768px;
+        margin: 0 auto;
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+}
+
+@media screen and (min-resolution: 96dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .main-wr-element-a {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/tablet/hero-tablet.jpg');
+    }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .main-wr-element-a {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/tablet/hero-tablet@2x.jpg');
+    }
+}
+
+@media screen and (min-resolution: 288dpi) and (min-width: 768px),
+screen and (min-resolution: 3dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 3) and (max-width: 767px) {
+    .main-wr-element-a {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/tablet/hero-tablet@3x.jpg');
+    }
+}
 /*=================Tablet стилі 768px+==========*/
 
 /*=================Desktop стилі 1158px+==========*/
