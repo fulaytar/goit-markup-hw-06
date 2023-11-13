@@ -120,7 +120,6 @@ color: #404bbf
     padding-bottom: 72px;
 }
     .main-wr-section-text{
-        width: 150px;
 margin-bottom: 72px;
 margin-right: auto;
 margin-left: auto;
@@ -227,15 +226,9 @@ margin-bottom: 72px;
     background-color: #FFFFFF;
 }
 .people-name-job{
-margin-top: 32px;
-padding-bottom: 32px;
-display: flex;
-width: 232px;
-flex-direction: column;
-margin-left: auto;
-margin-right: auto;
-align-items: center;
-gap: 8px;
+padding: 32px 0;
+display: block;
+width: 264px;
 }
 .main-section-c-name{
 text-align: center;
@@ -244,6 +237,7 @@ font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
 color: #2E2F42;
+margin-bottom: 8px;
 }
 .main-section-c-name-details{
 text-align: center;
@@ -252,6 +246,7 @@ font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 color: #434455;
+margin-bottom: 8px;
 }
 .icons-list-item {
     display: flex;
@@ -278,7 +273,6 @@ color: #434455;
 .people-icons-list {
     width: 100%;
     height: 100%;
-    margin-top: 8px;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -336,7 +330,7 @@ letter-spacing: 0.02em;
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 32px;
-    margin-top: 32px;
+    padding-top: 32px;
 }
 .icons-link:hover,
 .icons-link:focus {
@@ -447,7 +441,6 @@ margin-bottom: 16px;
     font-weight: 400;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
 }
 .input-style-footer:focus {
     border-color: #4D5AE5;
@@ -542,10 +535,10 @@ width: 320px;
 
 /*=================Tablet стилі 768px+==========*/
 @media screen and (min-width:768px) {
+/*=================Container Styke стилі 768px+==========*/
     .container {
         width: 768px;
     }
-
     .header-wr {
         width: 768px;
         margin: 0 auto;
@@ -584,9 +577,137 @@ width: 320px;
         padding-top: 96px;
         padding-bottom: 96px;
     }
+    .but-burger{
+        display: none;
+    }
+    .header-container{
+        align-items: center;
+    }
+    .header-wr-navigation{
+        display: flex;
+    }
+    .header-wr-navigation-logo{
+        margin-right: 120px;
+    }
+    .header-wr-navigation-list{
+        display: flex;
+        gap: 40px;
+    }
+    .address-wr{
+        display: flex;
+    }
+    .navigation-list-link{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;/* 150% */
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+    .address-menu-link1{
+        display: block;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1.17;/* 116.667% */
+            letter-spacing: 0.04em;
+            font-style: normal;
+            color: #434455;
+    }
+    .address-wr-menu{
+        display: flex;
+        flex-direction: column;
+       row-gap: 12px;
+    }
+/*=================Container Styke стилі 768px+==========*/
 
+/*=================Section Hero стилі 768px+==========*/
+.first-container{
+    padding: 112px 136px;
+}
+.main-wr-section-text{
+        width: 496px;
+        margin-bottom: 36px;
+        font-size: 56px;
+        line-height: 1.07;
+}
+/*=================Section Hero стилі 768px+==========*/
+
+/*=================My section benefits стилі 768px+==========*/
+.main-section-b-menu{
+    flex-direction: row;
+    flex-wrap: wrap;
+     column-gap: 24px;
+}
+.main-section-b-list{
+    width: 356px;
+}
+.main-section-b-text{
+    text-align: start;
+}
+/*=================My section benefits стилі 768px+==========*/
+
+/*=================My team стилі 768px+==========*/
+.main-section-c-list {
+    display: flex;
+    flex-direction: row;
+    gap: 64px 24px;
+    flex-wrap: wrap;
+}
+.container-team{
+    padding: 96px 108px;
 }
 
+.main-section-c-list-item {
+    min-width: 264px;
+    width: calc((100% - 240px) / 2);
+}
+/*=================My team стилі 768px+==========*/
+
+/*=================Our portfolio стилі 768px+==========*/
+.our-portfolio-list{
+    flex-direction: row;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+}
+.our-portfolio-list-item{
+    min-width: 356px;
+    width: calc((100% - 240px) / 2);
+}
+/*=================Our portfolio стилі 768px+==========*/
+
+/*=================Footer стилі 768px+==========*/
+.content-bas{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    padding: 96px 108px;
+}
+.footer-text-logo{
+    width: 264px;
+}
+.footer-link{
+width: 208px;
+}
+.footer-link-text{
+    text-align: start;
+}
+.footer-list-link{
+    padding-left: 0;
+    padding-right: 0;
+}
+.label-style-footer{
+    text-align: start;
+}
+.style-footer-subscribe{
+    flex-direction: row;
+    gap: 24px;
+}
+.input-style-footer{
+    width: 264px;
+    height: 40px;
+}
+/*=================Footer стилі 768px+==========*/
+}
+/*=================Tablet стилі 768px+==========*/
 @media screen and (min-resolution: 96dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
@@ -635,4 +756,5 @@ screen and (min-device-pixel-ratio: 3) and (max-width: 767px) {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/desktop/mark-desktop@3x.jpg');
     }
 }
+
 /*=================Desktop стилі 1158px+==========*/
