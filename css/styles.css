@@ -729,6 +729,9 @@ width: 320px;
 .footer-text-logo{
     width: 264px;
 }
+.footer-wr-color{
+    text-align: start;
+}
 .footer-link{
 width: 208px;
 }
