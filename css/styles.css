@@ -56,13 +56,264 @@ button{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.backdrop-desktop{display: none;}
 .overflow-info-text{display: none;}
 
 /*============================Modalka*/
+/* ===================Madalka mobile*/
 .backdrop {
-    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 8px 16px;
+    background-color: rgba(46, 47, 66, 0.4);
+    z-index: 99999999;
+    /*далі йде приховування*/
+
+    /*
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;*/
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/*===================Бекдроп==========================*/
+
+/*===================Модальне вікно mobile==========================*/
+.modal-window {
+    width: 288px;
+    min-height: 423px;
+    padding: 72px 16px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*===================Кнопка модального вікна==========================*/
+.button-modal-window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 50%;
+    background-color: #E7E9FC;
+    padding: 0;
+    line-height: 0;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-close-modal {
+    fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-modal-window:hover,
+.button-modal-window:focus {
+    background-color: #404BBF;
+    border: none;
+}
+
+.button-modal-window:hover .icon-close-modal-icon,
+.button-modal-window:focus .icon-close-modal-icon {
+    fill: #FFFFFF;
+}
+
+.input-box {
+    margin-bottom: 8px;
+}
+
+/*===================Кнопка модального вікна==========================*/
+/*===================Активація бекдропу==========================*/
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/*===================Активація бекдропу==========================*/
+.modal-window-title{
+    color:  #2E2F42;
+        text-align: center;/* Body Medium */
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+.styles-input-label{
+    display: block;
+color: #8E8F99;
+    /* Small Text */
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+}
+.styles-input {
+    display: block;
+    background-color: transparent;
+    outline: transparent;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    border-radius: 4px;
+    padding-left: 34px;
+    margin-bottom: 8px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*===================Модальне вікно ==========================*/
+/*===================Іконка у інпуті==========================*/
+
+.add-icon-input {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.decor-input-svg {
+    position: relative;
+}
+
+/*===================Іконка у інпуті==========================*/
+/*===================Стилі інпутів при ефектах==========================*/
+.styles-input:focus {
+    border-color: #4D5AE5;
+    outline: transparent;
+    outline-offset: 2px;
+}
+
+.styles-input:focus+.add-icon-input {
+    fill: #4D5AE5;
+}
+
+/*===================Стилі інпутів при ефектах==========================*/
+/*===================Стилі textarea==========================*/
+.area-text-coment {
+    width: 100%;
+    resize: none;
+    height: 120px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.area-text-coment::placeholder {
+    color: rgba(46, 47, 66, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.04em;
+}
+
+.area-text-coment:focus {
+    border-color: #4D5AE5;
+    outline-color: transparent;
+    outline-offset: 2px;
+}
+
+.input-text-coment {
+    margin-bottom: 16px;
+}
+/*===================Стилі button send modal==========================*/
+.button-form-send {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.button-form-send:hover,
+.button-form-send:focus {
+    background-color: #404BBF;
+}
+/* ==============Fake checkboc=======*/
+/*===================Стилі button send modal==========================*/
+.form-chekbox-item-label {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.private-policy {
+    color: #4D5AE5;
+    text-decoration-line: underline;
+}
+.pr-pol-dec{
+    display: flex;
+    flex-wrap: wrap;
+}
+.private-policy:focus,
+.private-policy:hover {
+    color: #404BBF;
+}
+
+.form-chekbox {
+    margin-bottom: 24px;
+}
+
+.fake-chekbox {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    border-radius: 2px;
+    cursor: pointer;
+    fill: transparent;
+    margin-right: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-chekbox-item:checked+.form-chekbox-item-label .fake-chekbox {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
+}
+/*===================Стилі button send modal==========================*/
 /*============================Modalka*/
 
 /*=================Загальні стилі==========*/
@@ -758,10 +1009,7 @@ width: 208px;
 /*=================Footer стилі 768px+==========*/
 }
 /* ==================Madalka tablet*/
-.modal-window{
-    width: 408px;
-    height: 584px;
-}
+
 /* ==================Madalka tablet*/
 /*=================Tablet стилі 768px+==========*/
 @media screen and (min-resolution: 96dpi) and (min-width: 768px),
@@ -988,267 +1236,8 @@ screen and (min-device-pixel-ratio: 3) and (max-width: 767px) {
     }
 
 }
-/* ===================Madalka desktop*/
-.backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(46, 47, 66, 0.4);
-    z-index: 99999999;
-    /*далі йде приховування*/
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-/*===================Бекдроп==========================*/
 
-/*===================Модальне вікно==========================*/
-.modal-window {
-    width: 408px;
-    min-height: 584px;
-    background-color: #FCFCFC;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/*===================Модальне вікно==========================*/
-
-/*===================Кнопка модального вікна==========================*/
-.button-modal-window {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-    border: 1px solid rgba(0, 0, 0, 0.10);
-    border-radius: 50%;
-    background-color: #E7E9FC;
-    padding: 0;
-    line-height: 0;
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-close-modal {
-    fill: #2E2F42;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-modal-window:hover,
-.button-modal-window:focus {
-    background-color: #404BBF;
-    border: none;
-}
-
-.button-modal-window:hover .icon-close-modal-icon,
-.button-modal-window:focus .icon-close-modal-icon {
-    fill: #FFFFFF;
-}
-
-.input-box {
-    margin-bottom: 8px;
-}
-
-/*===================Кнопка модального вікна==========================*/
-
-/*===================Активація бекдропу==========================*/
-.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
-
-/*===================Активація бекдропу==========================*/
-
-/*===================Стилі модального вікна==========================*/
-.modal-window {
-    padding: 72px 24px 24px 24px;
-}
-
-.modal-window-title {
-    color: #2E2F42;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-bottom: 16px;
-}
-
-.styles-input-label {
-    display: block;
-    margin-bottom: 4px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.17;
-    /* 116.667% */
-    letter-spacing: 0.04em;
-    color: #8E8F99;
-}
-
-.styles-input {
-    display: block;
-    background-color: transparent;
-    outline: transparent;
-    width: 100%;
-    height: 40px;
-    border: 1px solid rgba(46, 47, 66, 0.40);
-    border-radius: 4px;
-    padding-left: 38px;
-    margin-bottom: 8px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/*===================Іконка у інпуті==========================*/
-
-.add-icon-input {
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.decor-input-svg {
-    position: relative;
-}
-
-/*===================Іконка у інпуті==========================*/
-
-/*===================Стилі інпутів при ефектах==========================*/
-.styles-input:focus {
-    border-color: #4D5AE5;
-    outline: transparent;
-    outline-offset: 2px;
-}
-
-.styles-input:focus+.add-icon-input {
-    fill: #4D5AE5;
-}
-
-/*===================Стилі інпутів при ефектах==========================*/
-
-/*===================Стилі textarea==========================*/
-.area-text-coment {
-    width: 100%;
-    resize: none;
-    height: 120px;
-    border: 1px solid rgba(46, 47, 66, 0.40);
-    border-radius: 4px;
-    padding: 8px 16px;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
-    background-color: transparent;
-    outline: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.area-text-coment::placeholder {
-    color: rgba(46, 47, 66, 0.40);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.17;
-    /* 116.667% */
-    letter-spacing: 0.04em;
-}
-
-.area-text-coment:focus {
-    border-color: #4D5AE5;
-    outline-color: transparent;
-    outline-offset: 2px;
-}
-
-.input-text-coment {
-    margin-bottom: 16px;
-}
-
-/*===================Стилі textarea==========================*/
-
-/*===================Стилі button send modal==========================*/
-.button-form-send {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 24px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    border-radius: 4px;
-    background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: #FFFFFF;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.button-form-send:hover,
-.button-form-send:focus {
-    background-color: #404BBF;
-}
-
-/*===================Стилі button send modal==========================*/
-.form-chekbox-item-label {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.17;
-    /* 116.667% */
-    letter-spacing: 0.04em;
-    color: #8E8F99;
-}
-
-.private-policy {
-    color: #4D5AE5;
-    text-decoration-line: underline;
-}
-
-.private-policy:focus,
-.private-policy:hover {
-    color: #404BBF;
-}
-
-.form-chekbox {
-    margin-bottom: 24px;
-}
-
-.fake-chekbox {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 16px;
-    height: 16px;
-    border: 1px solid rgba(46, 47, 66, 0.40);
-    border-radius: 2px;
-    cursor: pointer;
-    fill: transparent;
-    margin-right: 8px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-chekbox-item:checked+.form-chekbox-item-label .fake-chekbox {
-    background-color: #404BBF;
-    border: none;
-    fill: #F4F4FD;
-}
-/* ==================Madalka desktop*/
 /*=================Footer 1158px+==========*/
 @media screen and (min-resolution: 96dpi) and (min-width: 1158px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
