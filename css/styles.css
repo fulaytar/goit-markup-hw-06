@@ -1012,6 +1012,12 @@ width: 208px;
     width: 408px;
     height: 584px;
 }
+.pr-pol-dec{
+    display: block;
+}
+.private-policy{
+    display: inline-block;
+}
 }
 @media screen and (min-resolution: 96dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
