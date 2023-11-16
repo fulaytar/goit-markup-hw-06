@@ -793,7 +793,9 @@ width: 320px;
 }
 
 /*=================Mobile стилі 320px==========*/
-
+@media screen (max-width:767px) {
+    
+}
 /*=================Tablet стилі 768px+==========*/
 @media screen and (min-width:768px) {
 /*=================Container Style стилі 768px+==========*/
