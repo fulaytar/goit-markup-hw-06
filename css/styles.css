@@ -1006,11 +1006,13 @@ width: 208px;
     height: 40px;
 }
 /*=================Footer стилі 768px+==========*/
-}
-/* ==================Madalka tablet*/
 
-/* ==================Madalka tablet*/
 /*=================Tablet стилі 768px+==========*/
+.modal-window{
+    width: 408px;
+    height: 584px;
+}
+}
 @media screen and (min-resolution: 96dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
@@ -1234,10 +1236,6 @@ screen and (min-device-pixel-ratio: 3) and (max-width: 767px) {
         margin-right: 80px;
     }
     /*==========Modalka====*/
-    .modal-window{
-    width: 408px;
-    height: 584px;
-    }
     .styles-input{
     padding-left: 38px;
 }   
