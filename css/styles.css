@@ -70,7 +70,6 @@ button{
     background-color: rgba(46, 47, 66, 0.4);
     z-index: 99999999;
     /*далі йде приховування*/
-
     /*
     opacity: 0;
     visibility: hidden;
@@ -1009,13 +1008,7 @@ width: 208px;
 /*=================Footer стилі 768px+==========*/
 }
 /* ==================Madalka tablet*/
-.modal-window{
-    width: 408px;
-    height: 584px;
-}
-.pr-pol-dec{
-display: inline-block;
-}
+
 /* ==================Madalka tablet*/
 /*=================Tablet стилі 768px+==========*/
 @media screen and (min-resolution: 96dpi) and (min-width: 768px),
@@ -1240,16 +1233,16 @@ screen and (min-device-pixel-ratio: 3) and (max-width: 767px) {
     .footer-link{
         margin-right: 80px;
     }
-
-}
-/*==========Modalka====*/
-.modal-window{
-width: 408px;
-height: 584px;
-}
-.styles-input{
+    /*==========Modalka====*/
+    .modal-window{
+    width: 408px;
+    height: 584px;
+    }
+    .styles-input{
     padding-left: 38px;
+}   
 }
+
 
 /*=================Footer 1158px+==========*/
 @media screen and (min-resolution: 96dpi) and (min-width: 1158px),
