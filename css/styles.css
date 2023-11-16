@@ -746,12 +746,12 @@ color: #FFFFFF;
     background-color: rgba(46, 47, 66, 0.4);
     z-index: 9999;
     opacity: 0; /* Початкова прозорість */
-    transform: translateX(100%); /* Початкове положення за правий край */
+    transform: translateY(-100%); /* Початкове положення за правий край */
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     }
     .is-open-mob {
         opacity: 1;
-        transform: translateX(0); /* З'явлення через перенесення вліво */
+        transform: translateY(0); /* З'явлення через перенесення вліво */
     }
     .burger-mobile-window{
         width: 320px;
