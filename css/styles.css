@@ -41,7 +41,7 @@ button{
 }
 /* Оформлення контейнерів */
 .container{
-    padding: 16px;
+    padding: 15px;
 }
 
 .visually-hidden {
@@ -58,13 +58,23 @@ button{
 }
 .backdrop-desktop{display: none;}
 .overflow-info-text{display: none;}
+
+/*============================Modalka*/
+.backdrop {
+    display: block;
+}
+/*============================Modalka*/
+
 /*=================Загальні стилі==========*/
 
 /*=================Хедер мобайл==========*/
 
-    .header-container{
+    .header-wr{
         display:flex;
-        justify-content: space-between;
+        }
+        .header-container{
+            display: flex;
+            justify-content: space-between;
         }
         .header-wr{
         border-bottom: 1px solid #E7E9FC;
@@ -128,7 +138,6 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11; /* 111.111% */
 letter-spacing: 0.02em;
-text-transform: capitalize;
 text-align: center;
 color: #FFFFFF;
     }
@@ -436,7 +445,6 @@ margin-bottom: 16px;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
     outline:transparent;
 }
 .input-style-footer::placeholder{
@@ -444,6 +452,7 @@ margin-bottom: 16px;
     font-weight: 400;
     line-height: 2;
     letter-spacing: 0.04em;
+color: #FFFFFF;
 }
 .input-style-footer:focus {
     border-color: #4D5AE5;
@@ -540,42 +549,35 @@ width: 320px;
 /*=================Container Style стилі 768px+==========*/
     .container {
         width: 768px;
+
     }
     .header-wr {
         width: 768px;
-        margin: 0 auto;
     }
 
     .main-wr-element {
         width: 768px;
-        margin: 0 auto;
     }
 
     .main-section-b {
         width: 768px;
-        margin: 0 auto
     }
 
     .main-section-c {
         width: 768px;
-        margin: 0 auto;
-        background-color: #F4F4FD;
     }
 
     .our {
         width: 768px;
-        margin: 0 auto
+
     }
 
     .footer-wr {
         width: 768px;
-        margin: 0 auto;
-        background-color: #2E2F42;
     }
 
     .content-bas {
         width: 768px;
-        margin: 0 auto;
         padding-top: 96px;
         padding-bottom: 96px;
     }
@@ -680,7 +682,7 @@ width: 320px;
 .main-section-b-menu{
     flex-direction: row;
     flex-wrap: wrap;
-     column-gap: 24px;
+    column-gap: 24px;
 }
 .main-section-b-list{
     width: 356px;
@@ -702,8 +704,8 @@ width: 320px;
 }
 
 .main-section-c-list-item {
-    min-width: 264px;
-    width: calc((100% - 240px) / 2);
+    width: calc((100% - 24px) / 2);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 /*=================My team стилі 768px+==========*/
 
@@ -714,9 +716,9 @@ width: 320px;
     flex-wrap: wrap;
 }
 .our-portfolio-list-item{
-    min-width: 356px;
-    width: calc((100% - 240px) / 2);
+    width: calc((100% - 24px) / 2);
 }
+
 /*=================Our portfolio стилі 768px+==========*/
 
 /*=================Footer стилі 768px+==========*/
@@ -755,6 +757,12 @@ width: 208px;
 }
 /*=================Footer стилі 768px+==========*/
 }
+/* ==================Madalka tablet*/
+.modal-window{
+    width: 408px;
+    height: 584px;
+}
+/* ==================Madalka tablet*/
 /*=================Tablet стилі 768px+==========*/
 @media screen and (min-resolution: 96dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
@@ -781,7 +789,468 @@ screen and (min-device-pixel-ratio: 3) and (max-width: 767px) {
 /*=================Tablet стилі 768px+==========*/
 
 /*=================Desktop стилі 1158px+==========*/
-@media screen and (min-resolution: 96dpi) and (min-width: 1168px),
+@media screen and (min-width:1158px) {
+
+    /*=================Container Style стилі 1158px+==========*/
+    .container {
+        width: 1158px;
+    }
+        /*=================Header Style стилі 1158px+==========*/
+.header-container{
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+    .header-wr {
+        width: auto;
+        max-width: 1440px;
+    }
+    .header-wr-navigation-logo{
+        margin-right: 76px;
+    }
+    .address-wr-menu{
+        flex-direction: row;
+        column-gap: 40px;
+        row-gap: 0;
+    }
+    .address-menu-link1{
+        font-size: 16px;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+    }
+/*=================Header Style стилі 1158px+==========*/
+
+/*=================Hero стилі 1158px+==========*/
+    .main-wr-element {
+        width: auto;
+        max-width: 1440px;
+    }
+    .first-container{
+        margin: 0 auto;
+    }
+    .first-container{
+        padding: 188px 332px;
+    }
+    .main-wr-section-text{
+        width: 496px;
+        margin-bottom:48px;
+    }
+/*=================Hero стилі 1158px+==========*/
+
+/*=================section benefits 1158px+==========*/
+    .main-section-b {
+        width: 1158px;
+    }
+        .second-container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        }
+        .main-section-b-list {
+        width: calc((100% - 72px) / 4);}
+        .card-icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 112px;
+            border-radius: 4px;
+            background-color: #F4F4FD;
+            margin-bottom: 8px;
+            border: 1px solid #8E8F99;
+        }
+.main-section-b-text{
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 1.2;
+                /* 120% */
+                letter-spacing: 0.02em;
+                margin-bottom: 8px;
+            }
+                .main-section-b-p{
+                    font-weight: 400;
+                }
+/*=================section benefits 1158px+==========*/
+
+/*=================section TEAM 1158px+==========*/
+   .main-section-c {
+       padding: 120px 0;
+       width: auto;
+       margin: 0;
+   }
+
+   .main-section-c-text {
+       margin-bottom: 72px;
+   }
+
+   .container-team{
+       display: block;
+        margin: 0 auto;
+        padding: 0 15px;
+   }
+
+   .main-section-c-list {
+       display: flex;
+       gap: 24px;
+   }
+
+.main-section-c-list-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   }
+/*=================section TEAM 1158px+==========*/
+
+/*=================section Portfolio 1158px+==========*/
+    .our {
+        width: 1158px;
+        padding: 120px 0 120px 0
+    }
+        .container-portfolio {
+            display: block;
+            padding: 0 15px;
+        }
+        .our-portfolio {
+            margin-bottom: 72px;
+            text-align: center;
+        }
+        
+        .our-portfolio-list {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 48px;
+        }
+        
+        .our-portfolio-list-item {
+            width: calc((100% - 48px) / 3);
+        }
+                .our-portfolio-list-item {
+                    position: relative;
+                    overflow: hidden;
+                    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                }
+        
+                .our-portfolio-list-item:hover {
+                    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+                }
+        
+                .images-app {
+                    position: relative;
+                    overflow: hidden;
+                }
+        
+                .overflow-info-text {
+                    position: absolute;
+                    top: 0;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    color: #f4f4fd;
+                    padding: 40px 32px;
+                    background-color: #4d5ae5;
+                    height: 100%;
+                    width: 100%;
+                    transform: translateY(100%);
+                    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                }
+        
+                .images-app:hover .overflow-info-text {
+                    transform: translateY(0);
+                }
+                .overflow-info-text{
+                    display: block;
+                }
+/*=================section Portfolio 1158px+==========*/
+
+/*=================Footer 1158px+==========*/
+    .footer-wr {
+        width: auto;
+        max-width: 1440px;
+        padding: 100px 0;
+    }
+
+    .content-bas {
+        display: flex;
+        width: 1158px;
+        justify-items: baseline;
+        flex-wrap: nowrap;
+        gap:0;
+        padding: 0;
+    }
+    .footer-wr-text{
+        width: 264px;
+    }
+    .footer-text-logo{
+        margin-right: 120px;
+    }
+    .footer-link{
+        margin-right: 80px;
+    }
+
+}
+/* ===================Madalka desktop*/
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    z-index: 99999999;
+    /*далі йде приховування*/
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*===================Бекдроп==========================*/
+
+/*===================Модальне вікно==========================*/
+.modal-window {
+    width: 408px;
+    min-height: 584px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*===================Модальне вікно==========================*/
+
+/*===================Кнопка модального вікна==========================*/
+.button-modal-window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 50%;
+    background-color: #E7E9FC;
+    padding: 0;
+    line-height: 0;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-close-modal {
+    fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-modal-window:hover,
+.button-modal-window:focus {
+    background-color: #404BBF;
+    border: none;
+}
+
+.button-modal-window:hover .icon-close-modal-icon,
+.button-modal-window:focus .icon-close-modal-icon {
+    fill: #FFFFFF;
+}
+
+.input-box {
+    margin-bottom: 8px;
+}
+
+/*===================Кнопка модального вікна==========================*/
+
+/*===================Активація бекдропу==========================*/
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/*===================Активація бекдропу==========================*/
+
+/*===================Стилі модального вікна==========================*/
+.modal-window {
+    padding: 72px 24px 24px 24px;
+}
+
+.modal-window-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.styles-input-label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.styles-input {
+    display: block;
+    background-color: transparent;
+    outline: transparent;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    border-radius: 4px;
+    padding-left: 38px;
+    margin-bottom: 8px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*===================Іконка у інпуті==========================*/
+
+.add-icon-input {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.decor-input-svg {
+    position: relative;
+}
+
+/*===================Іконка у інпуті==========================*/
+
+/*===================Стилі інпутів при ефектах==========================*/
+.styles-input:focus {
+    border-color: #4D5AE5;
+    outline: transparent;
+    outline-offset: 2px;
+}
+
+.styles-input:focus+.add-icon-input {
+    fill: #4D5AE5;
+}
+
+/*===================Стилі інпутів при ефектах==========================*/
+
+/*===================Стилі textarea==========================*/
+.area-text-coment {
+    width: 100%;
+    resize: none;
+    height: 120px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.area-text-coment::placeholder {
+    color: rgba(46, 47, 66, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.04em;
+}
+
+.area-text-coment:focus {
+    border-color: #4D5AE5;
+    outline-color: transparent;
+    outline-offset: 2px;
+}
+
+.input-text-coment {
+    margin-bottom: 16px;
+}
+
+/*===================Стилі textarea==========================*/
+
+/*===================Стилі button send modal==========================*/
+.button-form-send {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.button-form-send:hover,
+.button-form-send:focus {
+    background-color: #404BBF;
+}
+
+/*===================Стилі button send modal==========================*/
+.form-chekbox-item-label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.private-policy {
+    color: #4D5AE5;
+    text-decoration-line: underline;
+}
+
+.private-policy:focus,
+.private-policy:hover {
+    color: #404BBF;
+}
+
+.form-chekbox {
+    margin-bottom: 24px;
+}
+
+.fake-chekbox {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    border-radius: 2px;
+    cursor: pointer;
+    fill: transparent;
+    margin-right: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-chekbox-item:checked+.form-chekbox-item-label .fake-chekbox {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
+}
+/* ==================Madalka desktop*/
+/*=================Footer 1158px+==========*/
+@media screen and (min-resolution: 96dpi) and (min-width: 1158px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .main-wr-element-a {
@@ -789,7 +1258,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 1168px),
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .main-wr-element-a {
@@ -797,7 +1266,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     }
 }
 
-@media screen and (min-resolution: 288dpi) and (min-width: 1168px),
+@media screen and (min-resolution: 288dpi) and (min-width: 1158px),
 screen and (min-resolution: 3dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 3) and (max-width: 767px) {
     .main-wr-element-a {
