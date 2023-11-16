@@ -83,7 +83,7 @@ button{
 /*===================Модальне вікно mobile==========================*/
 .modal-window {
     width: 288px;
-    min-height: 423px;
+    height: 623px;
     padding: 72px 16px;
     background-color: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1009,7 +1009,13 @@ width: 208px;
 /*=================Footer стилі 768px+==========*/
 }
 /* ==================Madalka tablet*/
-
+.modal-window{
+    width: 408px;
+    height: 584px;
+}
+.pr-pol-dec{
+display: inline-block;
+}
 /* ==================Madalka tablet*/
 /*=================Tablet стилі 768px+==========*/
 @media screen and (min-resolution: 96dpi) and (min-width: 768px),
@@ -1236,7 +1242,14 @@ screen and (min-device-pixel-ratio: 3) and (max-width: 767px) {
     }
 
 }
-
+/*==========Modalka====*/
+.modal-window{
+width: 408px;
+height: 584px;
+}
+.styles-input{
+    padding-left: 38px;
+}
 
 /*=================Footer 1158px+==========*/
 @media screen and (min-resolution: 96dpi) and (min-width: 1158px),
