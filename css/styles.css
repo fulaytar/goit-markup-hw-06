@@ -743,7 +743,7 @@ color: #FFFFFF;
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.9); /* Додайте прозорість за бажанням */
+    background-color: rgba(46, 47, 66, 0.4);
     z-index: 9999;
     opacity: 0; /* Початкова прозорість */
     transform: translateX(100%); /* Початкове положення за правий край */
