@@ -1,5 +1,6 @@
 const orderButton = document.querySelector('.main-wr-element-a-button');
 const closeButton = document.querySelector('.button-modal-window');
+const backdrop = document.querySelector('.backdrop');
 
 function closeOverlayOnOutsideClick(event) {
   if (event.target === backdrop) {
@@ -10,14 +11,12 @@ function closeOverlayOnOutsideClick(event) {
 
 // Функція для відкриття бекдропа
 function openBackdrop() {
-  const backdrop = document.querySelector('.backdrop');
   backdrop.classList.add('is-open');
   backdrop.addEventListener('click', closeOverlayOnOutsideClick);
 }
 
 // Функція для закриття  бекдропа
 function closeBackdrop() {
-  const backdrop = document.querySelector('.backdrop');
   backdrop.classList.remove('is-open');
 }
 
