@@ -1,4 +1,3 @@
-const orderButton = document.querySelector('.main-wr-element-a-button');
 const closeButton = document.querySelector('.button-modal-window');
 
 function closeOverlayOnOutsideClick(event) {
