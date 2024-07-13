@@ -20,8 +20,8 @@
     mobileOverlay.classList.remove('is-open-mob');
   }
 
-  // Обробник для натискання на кнопку "бургер"
+  // Обробник для натискання на кнопку  "бургер"
   burgerButton.addEventListener('click', openOverlay);
-
+ 
   // Обробник для натискання на кнопку "закрити"
   closeButton.addEventListener('click', closeOverlay);
