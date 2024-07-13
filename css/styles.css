@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 a {
@@ -1359,7 +1360,7 @@ button {
     justify-items: baseline;
     flex-wrap: nowrap;
     gap: 0;
-    padding: 0;
+    padding: 0 15px;
   }
   .footer-wr-text {
     width: 264px;
