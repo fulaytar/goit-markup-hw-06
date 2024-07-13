@@ -1,21 +1,29 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var mobileOverlay = document.querySelector('.mobile-overlay');
-    var burgerButton = document.querySelector('.but-burger');
-    var closeButton = document.querySelector('.close-mobile-overlay');
+  const mobileOverlay = document.querySelector('.mobile-overlay');
+  const burgerButton = document.querySelector('.but-burger');
+  const closeButton = document.querySelector('.close-mobile-overlay');
 
-    // Функція для відкриття оверлею
-    function openOverlay() {
-        mobileOverlay.classList.add('is-open-mob');
+  function closeOverlayOnOutsideClick(event) {
+    console.log(event.target);
+    if (event.target === mobileOverlay) {
+      closeOverlay();
+      mobileOverlay.removeEventListener('click', closeOverlayOnOutsideClick);
     }
+  }
+  // Функція для відкриття оверлею
+  function openOverlay(event) {
+    mobileOverlay.classList.add('is-open-mob');
+    mobileOverlay.addEventListener('click', closeOverlayOnOutsideClick);
+  }
 
-    // Функція для закриття оверлею
-    function closeOverlay() {
-        mobileOverlay.classList.remove('is-open-mob');
-    }
+  // Функція для закриття оверлею
+  function closeOverlay(event) {
+    mobileOverlay.classList.remove('is-open-mob');
+  }
 
-    // Обробник для натискання на кнопку "бургер"
-    burgerButton.addEventListener('click', openOverlay);
+  // Обробник для натискання на кнопку "бургер"
+  burgerButton.addEventListener('click', openOverlay);
 
-    // Обробник для натискання на кнопку "закрити"
-    closeButton.addEventListener('click', closeOverlay);
+  // Обробник для натискання на кнопку "закрити"
+  closeButton.addEventListener('click', closeOverlay);
 });
