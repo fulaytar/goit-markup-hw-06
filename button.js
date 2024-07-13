@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+
   const backdrop = document.querySelector('.backdrop');
   const orderButton = document.querySelector('.main-wr-element-a-button');
   const closeButton = document.querySelector('.button-modal-window');
@@ -24,4 +24,3 @@ document.addEventListener('DOMContentLoaded', function () {
   // Додаємо обробники подій
   orderButton.addEventListener('click', openBackdrop);
   closeButton.addEventListener('click', closeBackdrop);
-});
