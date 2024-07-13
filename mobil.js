@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+
   const mobileOverlay = document.querySelector('.mobile-overlay');
   const burgerButton = document.querySelector('.but-burger');
   const closeButton = document.querySelector('.close-mobile-overlay');
@@ -25,4 +25,3 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Обробник для натискання на кнопку "закрити"
   closeButton.addEventListener('click', closeOverlay);
-});
