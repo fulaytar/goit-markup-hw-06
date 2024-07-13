@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const closeButton = document.querySelector('.close-mobile-overlay');
 
   function closeOverlayOnOutsideClick(event) {
-    console.log(event.target);
     if (event.target === mobileOverlay) {
       closeOverlay();
       mobileOverlay.removeEventListener('click', closeOverlayOnOutsideClick);
