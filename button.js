@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function closeOverlayOnOutsideClick(event) {
     if (event.target === backdrop) {
-      closeBackdrop();
       backdrop.removeEventListener('click', closeOverlayOnOutsideClick);
+      closeBackdrop();
     }
   }
 

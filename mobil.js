@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function closeOverlayOnOutsideClick(event) {
     if (event.target === mobileOverlay) {
-      closeOverlay();
       mobileOverlay.removeEventListener('click', closeOverlayOnOutsideClick);
+      closeOverlay();
     }
   }
   // Функція для відкриття оверлею
